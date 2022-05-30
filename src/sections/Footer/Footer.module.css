@@ -1,0 +1,48 @@
+.footerContainer {
+    width: 100%;
+    margin: 3rem 0;
+    background-color: var(--image-bg);
+}
+
+.innerContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--image-bg);
+}
+
+.footerLogo {
+    font-size: 2rem;
+    color: var(--primary);
+    letter-spacing: .02em;
+    font-weight: 600;
+}
+
+.socialLinks {
+    display: flex;
+    align-items: center;
+}
+
+.socialLink {
+    margin: 0 .75rem;
+}
+
+.socialLink img {
+    width: 1rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.footerText {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 300;
+    color: var(--text-light-grey-2);
+    padding: 1rem 0;
+}
+
+

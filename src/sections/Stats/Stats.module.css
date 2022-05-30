@@ -1,0 +1,59 @@
+.statsContainer {
+    display: none;
+}
+
+@media only screen and (min-width: 400px) {
+    .statsContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .wave {
+        max-width: 90%;
+        object-fit: contain;
+    }
+    
+    .stat{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: .5rem 0;
+    }
+    
+    .statHead {
+        font-size: 2.5rem;
+        color: var(--secondary);
+        letter-spacing: .02em;
+    }
+
+    .statBody {
+        font-size: 1rem;
+        color: var(--text-grey);
+        font-weight: 500;
+    }
+    
+    .stat:first-of-type {
+        left: 22%;
+        top: 40%;
+    }
+
+    .stat:nth-of-type(2n) {
+        left: 40%;
+        top: 75%;
+    }
+
+    .stat:nth-of-type(3n) {
+        left: 60%;
+        top: 30%;
+    }
+
+    .stat:nth-of-type(4n) {
+        left: 75%;
+        top: 70%;
+    }
+}

@@ -1,0 +1,52 @@
+.scheduleContainer {
+    width: 90%;
+    margin: 2rem auto;
+    color: white;
+}
+
+.heading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 500;
+    position: relative;
+}
+
+.subHeading {
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-light-grey);
+    font-weight: 500;
+    position: relative;
+}
+
+.scheduleInnerContainer {
+    margin-top: 3rem;
+    display: grid;
+    width: 100%;
+    overflow: scroll;
+    grid-template-columns: repeat(8, 400px);
+    grid-template-rows: repeat(3, auto);
+    gap: 1rem;
+}
+
+.header, .content, .session {
+    text-align: center;
+}
+
+.header {
+    color: var(--primary);
+}
+
+.content, .session {
+    width: 100%;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: var(--secondary);
+}
+
+.session {
+    background-color: var(--fire-gradient-start)
+}
+
+

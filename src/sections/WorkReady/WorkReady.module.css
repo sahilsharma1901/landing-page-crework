@@ -1,0 +1,106 @@
+.workReadyContainer {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.heading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--text-light-grey);
+    font-weight: 500;
+    position: relative;
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+.workReadyCards {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workReadyCard {
+    background-color: var(--image-bg);
+    padding: 1rem;
+    width: 90%;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.imageContainer {
+    width: 100%;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.itemHeading {
+    font-weight: 500;
+    color: var(--secondary);
+    font-size: 1rem;
+    margin: .5rem 0 1rem 0;
+}
+
+.itemDescription {
+    color: var(--text-light-grey-2);
+    font-weight: 300;
+    font-size: .85rem;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .heading {
+        font-size: 2rem;
+        letter-spacing: .02em;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .heading::after {
+        content: url('../../assets/images/curl_arrow.svg');
+        position: absolute;
+        bottom: -100px;
+    }
+
+    .workReadyCards {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .workReadyCard {
+        background-color: var(--image-bg);
+        padding: 1rem;
+        width: calc(25% - 2rem);
+        margin: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .image {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .itemHeading {
+        font-weight: 500;
+        color: var(--secondary);
+        font-size: 1rem;
+        margin: .5rem 0 1rem 0;
+    }
+    
+    .itemDescription {
+        color: var(--text-light-grey-2);
+        font-weight: 300;
+        font-size: .85rem;
+    }
+}

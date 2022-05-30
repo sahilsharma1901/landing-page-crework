@@ -1,0 +1,58 @@
+.mentorsContainer {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    background-color: var(--black);
+}
+
+.heading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.mentorsInnerContainer {
+    width: 90%;
+    margin: 3rem auto;
+    display: grid;
+    gap: 2rem;
+    row-gap: 3.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.mentorCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.social {
+    margin: .5rem;
+}
+
+.social a img {
+    width: 2rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white);
+    letter-spacing: .01em;
+}
+
+.designation {
+    font-weight: 400;
+    font-size: .8rem;
+    color: var(--text-grey);
+}

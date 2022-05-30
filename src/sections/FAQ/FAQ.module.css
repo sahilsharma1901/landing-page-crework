@@ -1,0 +1,76 @@
+.FAQContainer {
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.side {
+    flex: 1;
+}
+
+.heading {
+    font-size: 2rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.subHeading {
+    font-size: 1rem;
+    color: var(--text-light-grey);
+    font-weight: 500;
+}
+
+.main {
+    flex: 2;
+}
+
+.primaryText, .secondaryText {
+    color: var(--text-light-grey);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.primaryText {
+    margin-bottom: 1.5rem;
+}
+
+.FAQs {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.FAQ {
+    width: 100%;
+    color: var(--white);
+    border-radius: 1rem;
+    background-color: var(--transparent-white);
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.faqIcon {
+    position: absolute;
+    top: 50%;
+    right: .5rem;
+    width: .75rem;
+    height: auto;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.FAQHead {
+    position: relative;
+}
+
+.FAQBody {
+    max-height: 0;
+    opacity: 0;
+}
+
+.FAQBody.opened {
+    max-height: 500px;
+    opacity: 1;
+    padding-top: 1rem;
+}

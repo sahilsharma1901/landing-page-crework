@@ -1,0 +1,43 @@
+.featuresContainer {
+    width: 85%;
+    margin: 4rem auto;
+}
+
+.heading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.featuresInnerContainer {
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.feature {
+    background-color: var(--image-bg);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    width: 4rem;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.featureDescription {
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+    font-size: .9rem;
+}

@@ -16,12 +16,6 @@
   --transparent-white: #ffffff0d;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html, body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
@@ -31,6 +25,32 @@ html, body {
 body {
   position: relative;
   z-index: -2;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+  text-size-adjust: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
 }
 
 ul {

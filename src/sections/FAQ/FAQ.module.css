@@ -1,7 +1,12 @@
 .FAQContainer {
     width: 90%;
     margin: 2rem auto;
-    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    .FAQContainer {
+        display: flex;
+    }
 }
 
 .side {
@@ -48,6 +53,7 @@
     background-color: var(--transparent-white);
     padding: 1.25rem;
     margin: 1.25rem 0;
+    cursor: pointer;
 }
 
 .faqIcon {
@@ -67,6 +73,7 @@
 .FAQBody {
     max-height: 0;
     opacity: 0;
+    transition: all 250ms;
 }
 
 .FAQBody.opened {

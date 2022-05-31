@@ -37,7 +37,8 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
+    gap: 15px;
+    /* justify-content: space-between; */
     margin-top: 1rem;
 }
 
@@ -49,9 +50,20 @@
     font-size: 1rem;
     border: 2px solid var(--white);
     background-color: var(--white);
+    transition: all 200ms;
 }
 
 .knowMore {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.knowMore:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.joinWaitlist:hover {
     background-color: var(--black);
     color: var(--white);
 }
@@ -151,7 +163,7 @@
     background-color: var(--text-grey);
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
     .primaryText {
         font-size: 4.5rem;
         line-height: 5.25rem;
@@ -179,7 +191,7 @@
     .CTAContainer {
         display: flex;
         align-items: center;
-        justify-content: unset;
+        /* justify-content: unset; */
         flex: 2;
     }
 
@@ -190,6 +202,7 @@
         -webkit-backdrop-filter: blur( 10px );
         padding: 2.5rem 1.5rem 3rem 2rem;
         border-radius: 12px;
+        margin-top: -100px;
     }
 
     .joinWaitlist, .knowMore {

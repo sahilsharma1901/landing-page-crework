@@ -39,9 +39,9 @@ const FAQ = () => {
             <div className={styles.FAQs}>
                 {faqs.map((item, index) => {
                     return (
-                        <div key={index} className={styles.FAQ}>
+                        <div key={index} className={styles.FAQ} onClick={faqHandler.bind(null, item.id)}>
                             <div className={styles.FAQHead}>
-                                <img src={item.opened ? minus : plus} alt="icon" className={styles.faqIcon} onClick={faqHandler.bind(null, item.id)}/>
+                                <img src={item.opened ? minus : plus} alt="icon" className={styles.faqIcon} />
                                 <p className={styles.text}>{item.question}</p>
                             </div>
                             <div className={`${styles.FAQBody} ${item.opened ? styles.opened : ''}`}>

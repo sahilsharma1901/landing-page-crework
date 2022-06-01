@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
         <div className={styles.innerContainer}>
-            <h2 className={styles.footerLogo}>Crework</h2>
+            <h2 className={styles.footerLogo}>Crework.</h2>
             <ul className={styles.socialLinks}>
                 <li className={styles.socialLink}>
                     <img src={twitter} alt="Twitter"/>

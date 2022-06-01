@@ -28,8 +28,15 @@
     border-radius: 8px;
     font-size: 1rem;
     transition: all 200ms;
+    display: none;
 }
 
 .exploreButton:hover {
     opacity: 0.9;
+}
+
+@media only screen and (min-width: 768px) {
+    .exploreButton {
+        display: block;
+    }
 }

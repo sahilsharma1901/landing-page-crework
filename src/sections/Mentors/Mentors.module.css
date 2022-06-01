@@ -39,7 +39,7 @@
 }
 
 .social a img {
-    width: 2rem;
+    width: 1.75rem;
     height: auto;
     object-fit: contain;
 }
@@ -55,4 +55,22 @@
     font-weight: 400;
     font-size: .8rem;
     color: var(--text-grey);
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 2rem;
+        letter-spacing: .02em;
+        display: block;
+        text-align: center;
+        position: static;
+    }
+
+    .mentorsContainer {
+        margin-top: 5rem;
+    }
+
+    .mentorsInnerContainer {
+        margin-top: 4rem;
+    }
 }

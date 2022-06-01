@@ -16,7 +16,7 @@
 
 .footerLogo {
     font-size: 2rem;
-    color: var(--primary);
+    color: var(--white);
     letter-spacing: .02em;
     font-weight: 600;
 }

@@ -34,6 +34,18 @@
         grid-template-columns: repeat(8, 400px);
         grid-template-rows: repeat(3, auto);
     }
+
+    .heading {
+        font-size: 2rem;
+        letter-spacing: .02em;
+        display: block;
+        text-align: center;
+        position: static;
+    }
+
+    .scheduleContainer {
+        margin: 6rem auto;
+    }
 }
 
 .header, .content, .session {

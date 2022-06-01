@@ -8,7 +8,6 @@ const FAQ = () => {
     const [faqs, setFaqs] = useState(data);
 
     const faqHandler = (id) => {
-        console.log(11);
         let updatedFaqs = faqs.map(faq => {
             if(id === faq.id){
                 return {

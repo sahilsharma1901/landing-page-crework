@@ -6,7 +6,7 @@ const CTA = () => {
     <div className={styles.CTAContainer}>
         <div className={styles.innerCTA}>
             <h2 className={styles.text}>Aap convince hogye<br/>ya main aur bolun?</h2>
-            <a href='/' className={styles.exploreButton}>Explore</a>
+            <a href='/' className={styles.exploreButton}>Apply</a>
         </div>
     </div>
   )

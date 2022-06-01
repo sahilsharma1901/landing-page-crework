@@ -31,8 +31,9 @@
 }
 
 .imageContainer {
-    width: 100%;
+    width: 3.5rem;
     height: auto;
+    margin: 1rem;
 }
 
 .image {
@@ -85,10 +86,10 @@
         border-radius: 1rem;
     }
     
-    .image {
-        width: 100%;
+    .imageContainer {
+        width: 6rem;
         height: auto;
-        object-fit: contain;
+        margin: 1rem;
     }
     
     .itemHeading {

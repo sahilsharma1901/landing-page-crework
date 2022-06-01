@@ -16,7 +16,7 @@ export const featuresData = [
     },
     {
         icon: user,
-        description: "Developers & Engineers who struggle with interviews & negotiation",
+        description: "Engineers who want to build but aren’t sure where to start from",
     },
     {
         icon: university,
@@ -24,10 +24,10 @@ export const featuresData = [
     },
     {
         icon: award,
-        description: "You want to stand out to hiring managers at top tech companies",
+        description: "Developers & Engineers in search of the right peer group",
     },
     {
         icon: halfStar,
-        description: "You have a tech portfolio but are not confident about it",
+        description: "Students having a tech portfolio but are not confident about it",
     },
 ]

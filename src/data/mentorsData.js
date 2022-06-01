@@ -3,74 +3,56 @@ import DP from '../assets/images/DP2.png'
 export const mentorsData = [
     {
         image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
+        name: "Dushyant Pratap Singh",
+        designation: "Backend Guru",
         socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
+            "https://twitter.com/dusht1408",
+            "https://www.linkedin.com/in/dushyant865/"
         ]
     },
     {
         image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
+        name: "Manthan Gupta",
+        designation: "Backend Guru",
         socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
+            "https://twitter.com/manthanguptaa",
+            "https://www.linkedin.com/in/manthangupta109/"
         ]
     },
     {
         image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
+        name: "Sahil Sharma",
+        designation: "Frontend Guru",
         socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
+            "https://twitter.com/sahilasharma19",
+            "https://www.linkedin.com/in/sahilasharma/"
         ]
     },
     {
         image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
+        name: "Rizwan Memon",
+        designation: "Frontend Guru",
         socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
+            "https://twitter.com/rizwan2000_rm",
+            "https://www.linkedin.com/in/rizwan2000rm/"
         ]
     },
     {
         image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
+        name: "Aniket Panwar",
+        designation: "Full Stack Guru",
         socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
+            "https://twitter.com/header_bug",
+            "https://www.linkedin.com/in/aniket-panwar/"
         ]
     },
     {
         image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
+        name: "Abhishek Saha",
+        designation: "UI/UX Guru",
         socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
-        ]
-    },
-    {
-        image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
-        socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
-        ]
-    },
-    {
-        image: DP,
-        name: "Akshat Gurnani",
-        designation: "ML Mentor",
-        socials: [
-            "www.twitter.com",
-            "www.linkedin.com"
+            "https://twitter.com/designerSaha",
+            "whttps://www.linkedin.com/in/pixabuddy/"
         ]
     },
 ]

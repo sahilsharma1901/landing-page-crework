@@ -63,13 +63,14 @@
 .header {
     color: var(--primary);
     margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 .content, .sessionInner {
     width: 100%;
     border-radius: 8px;
     padding: 1rem;
-    height: max-content;
+    height: 100%;
     background-color: var(--secondary);
 }
 
@@ -81,6 +82,7 @@
 .sessionInner {
     background-color: var(--tertiary);
     margin: .75rem 0;
+    height: max-content
 }
 
 .headWrapper {
@@ -94,7 +96,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     text-align: left;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
 }
 
 .s_side {
@@ -102,18 +104,13 @@
     font-size: .75rem;
     font-weight: 500;
     text-align: right;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
 }
 
 .s_by {
     margin-top: .25rem;
     text-align: left;
     font-size: .9rem;
-}
-
-.build {
-    grid-column: span 4;
-    height: 100%;
 }
 
 .contentHead {

@@ -18,7 +18,7 @@ const Schedule = () => {
             <div className={styles.scheduleInnerSubContainer}>
               {contentData.map((content, index2) => {
                 return (
-                  <div className={`${styles.content} ${index2 === 3 ? styles.build : ''}`} key={index2}>
+                  <div className={styles.content} key={index2}>
                     <p className={styles.contentHead}>{content.heading}</p>
                     <ul className={styles.contentBody}>
                       {content.content.map((text, index3) => {

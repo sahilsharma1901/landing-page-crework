@@ -9,16 +9,7 @@ export const headingData = [
         head: "Week 3"
     },
     {
-        head: "Week 4"
-    },
-    {
-        head: "Week 5"
-    },
-    {
-        head: "Week 6"
-    },
-    {
-        head: "Week 7"
+        head: "Week 4 - 7"
     },
     {
         head: "Week 8"
@@ -135,18 +126,6 @@ export const sessionData = [
                 date: "22 July",
                 by: "Dushyant Pratap Singh"
             },
-        ]
-    },
-    {
-        content: [
-        ]
-    },
-    {
-        content: [
-        ]
-    },
-    {
-        content: [
         ]
     },
     {

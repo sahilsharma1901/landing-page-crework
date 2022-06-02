@@ -136,26 +136,22 @@
     align-items: center;
 }
 
-.one, .two, .three {
+.dot {
     display: inline-block;
     margin-right: .25rem;
     height: 3px;
     border-radius: 1px;
 }
 
-.one {
+.dot {
+    width: 2px;
+    background-color: var(--text-grey);
+    transition: width 1s ease;
+}
+
+.dot.active {
     background-color: var(--primary);
     width: 2.5rem;
-}
-
-.two {
-    width: 2px;
-    background-color: var(--text-grey);
-}
-
-.three {
-    width: 2px;
-    background-color: var(--text-grey);
 }
 
 @media only screen and (min-width: 768px) {

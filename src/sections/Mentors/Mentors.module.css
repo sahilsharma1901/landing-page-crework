@@ -32,9 +32,6 @@
     height: 10rem;
     border-radius: 1rem;
     object-fit: cover;
-}
-
-.rizwan, .ishant {
     object-position: top
 }
 

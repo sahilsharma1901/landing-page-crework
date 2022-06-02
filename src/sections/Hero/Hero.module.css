@@ -37,6 +37,7 @@
     display: flex;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
     gap: 15px;
     margin-top: 2rem;
 }
@@ -100,7 +101,14 @@
     font-weight: 400;
     color: var(--white);
     font-size: 1.25rem;
-    margin-bottom: .25rem;
+}
+
+.p_text, .s_text {
+    display: block;
+}
+
+.s_text {
+    font-size: .8rem;
 }
 
 .testimonialContainer {
@@ -190,6 +198,7 @@
         display: flex;
         align-items: center;
         flex: 2;
+        justify-content: flex-start;
     }
 
     .testimonialsCard {
@@ -199,7 +208,7 @@
         -webkit-backdrop-filter: blur( 10px );
         padding: 2.5rem 1.5rem 3rem 2rem;
         border-radius: 12px;
-        margin-top: -340px;
+        margin-top: -250px;
     }
 
     .joinWaitlist, .knowMore {

@@ -1,8 +1,8 @@
-import Dushyant from '../assets/images/dusht.png'
+import Dushyant from '../assets/images/dusht_final.png'
 import Manthan from '../assets/images/manthan.png'
-import Rizwan from '../assets/images/rizwan.png'
-import Ishant from '../assets/images/ishant.jpg'
-import Sahil from '../assets/images/sahil.jpg'
+import Rizwan from '../assets/images/rizwan_final.png'
+import Ishant from '../assets/images/ishant_final.jpg'
+import Sahil from '../assets/images/sahil_final.jpg'
 
 export const mentorsData = [
     {

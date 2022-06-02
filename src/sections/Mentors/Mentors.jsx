@@ -14,7 +14,7 @@ const Mentors = () => {
                 data.map((item, index) => {
                     return (
                         <div className={styles.mentorCard} key={index}>
-                            <img src={item.image} alt={item.name} className={styles.image}/>
+                            <img src={item.image} alt={item.name} className={`${styles.image} ${styles[item.name.split(" ")[0].toLowerCase()]}`}/>
                             <ul className={styles.socialsList}>
                                 <li className={styles.social}>
                                     <a href={item.socials[0]} target="_blank" rel='noreferrer'>

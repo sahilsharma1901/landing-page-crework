@@ -75,12 +75,14 @@
     max-height: 0;
     opacity: 0;
     transition: all 250ms;
+    pointer-events: none;
 }
 
 .FAQBody.opened {
     max-height: 500px;
     opacity: 1;
     padding-top: 1rem;
+    pointer-events: all;
 }
 
 .text {

@@ -32,7 +32,10 @@
     height: 10rem;
     border-radius: 1rem;
     object-fit: cover;
-    background-position: right 10% bottom 0%;
+}
+
+.rizwan{
+    object-position: top
 }
 
 .socialsList {

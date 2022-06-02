@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Schedule.module.css'
+import {headingData, contentData, sessionData} from "../../data/scheduleData"
 
 const Schedule = () => {
   return (
@@ -7,30 +8,48 @@ const Schedule = () => {
         <h2 className={styles.heading}>How we do things?</h2>
         <h4 className={styles.subHeading}>Weekly Structure</h4>
         <div className={styles.scheduleInnerContainer}>
-            <div className={styles.header}>Week 1</div>
-            <div className={styles.header}>Week 2</div>
-            <div className={styles.header}>Week 3</div>
-            <div className={styles.header}>Week 4</div>
-            <div className={styles.header}>Week 5</div>
-            <div className={styles.header}>Week 6</div>
-            <div className={styles.header}>Week 7</div>
-            <div className={styles.header}>Week 8</div>
-            <div className={styles.content}>Boot camp</div>
-            <div className={styles.content}>Week two ka content</div>
-            <div className={styles.content}>Week three ka content Week one ka contentWeek one ka contentWeek one ka contentWeek one ka content</div>
-            <div className={styles.content}>Week four ka content</div>
-            <div className={styles.content}>Week five ka content</div>
-            <div className={styles.content}>Week six ka content</div>
-            <div className={styles.content}>Week seven ka content</div>
-            <div className={styles.content}>Week eight ka content</div>
-            <div className={styles.session}>Session 1 with more more sessions and more more sessions</div>
-            <div className={styles.session}>Session 2</div>
-            <div className={styles.session}>Session 3</div>
-            <div className={styles.session}>Session 4</div>
-            <div className={styles.session}>Session 5</div>
-            <div className={styles.session}>Session 6</div>
-            <div className={styles.session}>Session 7</div>
-            <div className={styles.session}>Session 8</div>
+            <div className={styles.scheduleInnerSubContainer}>
+              {headingData.map((heading, index1) => {
+                return (
+                  <div className={styles.header} key={index1}>{heading.head}</div>
+                )
+              })}
+            </div>
+            <div className={styles.scheduleInnerSubContainer}>
+              {contentData.map((content, index2) => {
+                return (
+                  <div className={`${styles.content} ${index2 === 3 ? styles.build : ''}`} key={index2}>
+                    <p className={styles.contentHead}>{content.heading}</p>
+                    <ul className={styles.contentBody}>
+                      {content.content.map((text, index3) => {
+                        return (
+                          <li className={styles.contentBodyText} key={index3}>{text}</li>
+                        )
+                      })}
+                    </ul>
+                  </div>
+                )
+              })}
+            </div>
+            <div className={styles.scheduleInnerSubContainer}>
+              {sessionData.map((session, index4) => {
+                return (
+                  <div className={styles.session} key={index4}>
+                    {session.content.map((content, index5) => {
+                      return (
+                        <div className={styles.sessionInner}>
+                          <div className={styles.headWrapper} key={index5}>
+                            <p className={styles.s_head}>{content.title}</p>
+                            <p className={styles.s_side}><span>{content.date}</span>, <span>{content.day}</span></p>
+                          </div>
+                          <p className={styles.s_by}>by <strong>{content.by}</strong></p>
+                        </div>
+                      )
+                    })}
+                  </div>
+                )
+              })}
+            </div>
         </div>
     </div>
   )

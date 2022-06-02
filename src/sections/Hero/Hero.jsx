@@ -12,8 +12,8 @@ const Hero = () => {
         <p className={styles.secondaryText}>Ideate, build, network and get mentored <br/> with the best people in tech</p>
         <div className={styles.heroInnerContainer}>
             <div className={styles.CTAContainer}>
-                <button className={styles.joinWaitlist}>Join Waitlist</button>
-                <button className={styles.knowMore}>Know More</button>
+                <button className={styles.joinWaitlist}>Apply now</button>
+                <a href="#knowMore" className={styles.knowMore}>Know More</a>
             </div>
             <div className={styles.testimonialsCard}>
                 <div className={styles.cardHeader}>

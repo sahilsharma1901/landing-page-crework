@@ -18,13 +18,21 @@
     display: grid;
     gap: 2rem;
     row-gap: 3.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .mentorCard {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.image {
+    width: 14rem;
+    height: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    background-position: right 10% bottom 0%;
 }
 
 .socialsList {

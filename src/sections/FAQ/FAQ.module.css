@@ -82,3 +82,7 @@
     opacity: 1;
     padding-top: 1rem;
 }
+
+.text {
+    margin: .75rem 0;
+}

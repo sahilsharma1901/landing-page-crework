@@ -4,7 +4,7 @@ import {WorkReadyData as data} from '../../data/workReady'
 
 const WorkReady = () => {
   return (
-    <div className={styles.workReadyContainer}>
+    <div id="knowMore" className={styles.workReadyContainer}>
         <h2 className={styles.heading}>Be work ready from<br/>Day 1 with <span className={styles.highlight}>Crework</span></h2>
         <div className={styles.workReadyCards}>
             {data.map((item, index) => {

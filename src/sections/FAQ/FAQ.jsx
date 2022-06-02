@@ -44,7 +44,9 @@ const FAQ = () => {
                                 <p className={styles.text}>{item.question}</p>
                             </div>
                             <div className={`${styles.FAQBody} ${item.opened ? styles.opened : ''}`}>
-                                <p className={styles.text}>{item.answer}</p>
+                                <p className={styles.text}>{item.answer.map((sentence, idx) => {
+                                    return <p className={styles.text} key={idx}>{sentence}</p>
+                                })}</p>
                             </div>
                         </div>
                     )

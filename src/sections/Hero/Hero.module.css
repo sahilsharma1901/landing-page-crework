@@ -57,14 +57,10 @@
     color: var(--white);
 }
 
-.knowMore:hover {
-    background-color: var(--white);
-    color: var(--black);
-}
-
 .joinWaitlist:hover {
-    background-color: var(--black);
+    background-color: var(--secondary);
     color: var(--white);
+    border: 2px solid var(--secondary);
 }
 
 .testimonialsCard {

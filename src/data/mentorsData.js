@@ -1,8 +1,12 @@
-import DP from '../assets/images/DP2.png'
+import Dushyant from '../assets/images/dusht.png'
+import Manthan from '../assets/images/manthan.png'
+import Rizwan from '../assets/images/rizwan.png'
+import Abhishek from '../assets/images/abhishek.png'
+import Sahil from '../assets/images/sahil.jpg'
 
 export const mentorsData = [
     {
-        image: DP,
+        image: Dushyant,
         name: "Dushyant Pratap Singh",
         designation: "Backend Guru",
         socials: [
@@ -11,7 +15,7 @@ export const mentorsData = [
         ]
     },
     {
-        image: DP,
+        image: Manthan,
         name: "Manthan Gupta",
         designation: "Backend Guru",
         socials: [
@@ -20,7 +24,7 @@ export const mentorsData = [
         ]
     },
     {
-        image: DP,
+        image: Sahil,
         name: "Sahil Sharma",
         designation: "Frontend Guru",
         socials: [
@@ -29,7 +33,7 @@ export const mentorsData = [
         ]
     },
     {
-        image: DP,
+        image: Rizwan,
         name: "Rizwan Memon",
         designation: "Frontend Guru",
         socials: [
@@ -38,16 +42,7 @@ export const mentorsData = [
         ]
     },
     {
-        image: DP,
-        name: "Aniket Panwar",
-        designation: "Full Stack Guru",
-        socials: [
-            "https://twitter.com/header_bug",
-            "https://www.linkedin.com/in/aniket-panwar/"
-        ]
-    },
-    {
-        image: DP,
+        image: Abhishek,
         name: "Abhishek Saha",
         designation: "UI/UX Guru",
         socials: [

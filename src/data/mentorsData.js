@@ -1,7 +1,7 @@
 import Dushyant from '../assets/images/dusht.png'
 import Manthan from '../assets/images/manthan.png'
 import Rizwan from '../assets/images/rizwan.png'
-import Abhishek from '../assets/images/abhishek.png'
+import Ishant from '../assets/images/ishant.jpg'
 import Sahil from '../assets/images/sahil.jpg'
 
 export const mentorsData = [
@@ -42,12 +42,12 @@ export const mentorsData = [
         ]
     },
     {
-        image: Abhishek,
-        name: "Abhishek Saha",
-        designation: "UI/UX Guru",
+        image: Ishant,
+        name: "Ishant Juyal",
+        designation: "Product Guru",
         socials: [
-            "https://twitter.com/designerSaha",
-            "whttps://www.linkedin.com/in/pixabuddy/"
+            "https://twitter.com/juyal_ishant",
+            "https://www.linkedin.com/in/ishantjuyal/"
         ]
     },
 ]

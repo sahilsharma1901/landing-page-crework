@@ -1,6 +1,6 @@
 export const faqData = [
     {
-        question: "What is it?",
+        question: "What is Crework?",
         answer: [
             "Crework is an online community which helps you learn by building better projects.",
             "We host an 8 week long cohort called ‘Build With Us’ where we select a few folks to help them build a project from scratch and with people who have complementary skills and a similar learning attitude."
@@ -60,7 +60,7 @@ export const faqData = [
         question: "Who will be the mentors and how will I be helped?",
         answer: [
             "You can check about the mentors above. Rest assured, we have worked hard to find the best people for you. ",
-            "Your mentors will help you in many ways:",
+            "Your mentors will help you in many ways",
             "1. Solve your doubts",
             "3. Mentor/ guide your team to build better",
             "3. Teach you many more concepts relevant in the industry and are hardly known to students",
@@ -70,9 +70,9 @@ export const faqData = [
         opened: false
     },
     {
-        question: "I have more queries, how do I reach out you?",
+        question: "I have more queries, how can I reach out?",
         answer: [
-            "Mat kar",
+            "If you have any more queries, feel free to reach out at creworkgroup@gmail.com",
         ],
         id: "8",
         opened: false

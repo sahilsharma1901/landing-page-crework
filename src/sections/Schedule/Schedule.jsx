@@ -6,7 +6,7 @@ const Schedule = () => {
   return (
     <div className={styles.scheduleContainer}>
         <h2 className={styles.heading}>How we do things?</h2>
-        <h4 className={styles.subHeading}>Weekly Structure</h4>
+        <h4 className={styles.subHeading}>Curriculum &amp; Sessions</h4>
         <div className={styles.scheduleInnerContainer}>
             <div className={styles.scheduleInnerSubContainer}>
               {headingData.map((heading, index1) => {

@@ -8,8 +8,15 @@ import {testimonialData as data} from "../../data/testimonialData"
 
 const Hero = () => {
 
+    function randomIntFromInterval(min, max) { 
+        return Math.floor(Math.random() * (max - min + 1) + min)
+}
+      
     const [testimonials, _] = useState(data);
-    const [activeTestimonial, setActiveTestimonial] = useState(testimonials[0]);
+    const randomNumber = randomIntFromInterval(0, 6)
+    console.log(randomNumber);
+
+    const [activeTestimonial, setActiveTestimonial] = useState(testimonials[randomNumber]);
     const [activeDP, setActiveDP] = useState(activeTestimonial.DP)
 
     useEffect(
@@ -23,7 +30,7 @@ const Hero = () => {
                     setActiveTestimonial(testimonials[activeTestimonialId])
                     setActiveDP(testimonials[activeTestimonialId].DP)
                 }
-            }, 4000)
+            }, 8000)
 
             return () => {
                 clearInterval(interval)
@@ -37,7 +44,7 @@ const Hero = () => {
         <p className={styles.secondaryText}>Ideate, build, network and get mentored <br/> with the best people in tech</p>
         <div className={styles.heroInnerContainer}>
             <div className={styles.CTAContainer}>
-                <a href="/" className={styles.joinWaitlist}>Apply now</a>
+                <a href="https://tally.so/r/31AdWp" target="_blank" rel="noreferrer" className={styles.joinWaitlist}>Apply now</a>
                 <a href="#knowMore" className={styles.knowMore}>Know More</a>
             </div>
             <div className={styles.testimonialsCard}>

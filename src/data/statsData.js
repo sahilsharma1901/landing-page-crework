@@ -1,18 +1,18 @@
 export const statsData = [
     {
-        heading: "100%",
-        description: "Placement",
-    },
-    {
-        heading: "10+",
+        heading: "4",
         description: "Batches",
     },
     {
-        heading: "4",
-        description: "Mentors",
+        heading: "2000+",
+        description: "Applications",
     },
     {
-        heading: "40LPA",
-        description: "Average Package",
+        heading: "35+",
+        description: "Graduates",
+    },
+    {
+        heading: "9",
+        description: "Projects",
     },
 ]

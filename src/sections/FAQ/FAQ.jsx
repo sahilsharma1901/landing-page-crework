@@ -29,12 +29,6 @@ const FAQ = () => {
             <h3 className={styles.subHeading}>Need answers?<br/>Find them here!</h3>
         </div>
         <div className={styles.main}>
-            <p className={styles.primaryText}>
-                Hi you, if you have any questions or at any point you’re confused or too annoyed to dig through this page to find answers you’re looking for, email us at <strong>xyz@gmail.com</strong>
-            </p>
-            <p className={styles.secondaryText}>
-                We want to help you find all your answers.
-            </p>
             <div className={styles.FAQs}>
                 {faqs.map((item, index) => {
                     return (

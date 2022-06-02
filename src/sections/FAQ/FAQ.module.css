@@ -6,12 +6,14 @@
 @media only screen and (min-width: 768px) {
     .FAQContainer {
         display: flex;
+        align-items: flex-start;
         margin: 5rem auto;
     }
 }
 
 .side {
     flex: 1;
+    margin-top: .75rem;
 }
 
 .heading {
@@ -43,7 +45,6 @@
 }
 
 .FAQs {
-    margin-top: 4rem;
     width: 100%;
 }
 

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
         <div className={styles.innerContainer}>
-            <h2 className={styles.footerLogo}>Crework.</h2>
+            <h2 className={styles.footerLogo}>Crework<span className={styles.highlight}>.</span></h2>
             <ul className={styles.socialLinks}>
                 <li className={styles.socialLink}>
                     <a href="https://twitter.com/CreworkHQ" target="_blank" rel='noreferrer'><img src={twitter} alt="Twitter"/></a>

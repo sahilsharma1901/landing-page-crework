@@ -72,7 +72,9 @@
     border-radius: 8px;
     padding: 1rem;
     height: 100%;
-    background-color: var(--secondary);
+    background-color: #463f3a;
+    /* border: 2px solid var(--secondary); */
+    color: white;
 }
 
 .session {
@@ -82,8 +84,10 @@
 
 .sessionInner {
     background-color: var(--tertiary);
+    background-color: #e09f3e;
     margin: .75rem 0;
-    height: max-content
+    height: max-content;
+    color: black;
 }
 
 .headWrapper {

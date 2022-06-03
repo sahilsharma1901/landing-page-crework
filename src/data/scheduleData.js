@@ -26,7 +26,7 @@ export const contentData = [
         content: [
             "Brainstorm problems and come up with solutions",
             "Convert your crazy solutions into real products",
-            "Collaborate with a team to "
+            "Collaborate with a team to validate the ideas"
         ]
     },
     {

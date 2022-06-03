@@ -40,7 +40,7 @@ const Hero = () => {
 
   return (
     <div className={styles.heroContainer}>
-        <h1 className={styles.primaryText}>Build your best <br/> project in <span className={styles.highlight}>8 weeks</span></h1>
+        <h1 className={styles.primaryText}>Build your best <br/> project in <span className={styles.highlight}> <br/> 8 weeks</span></h1>
         <p className={styles.secondaryText}>Ideate, build, network and get mentored <br/> with the best people in tech</p>
         <div className={styles.heroInnerContainer}>
             <div className={styles.CTAContainer}>
@@ -64,11 +64,12 @@ const Hero = () => {
                         <p><img src={prevArrow} alt="previous"/></p>
                         <p><img src={nextArrow} alt="next"/></p>
                     </div>
-                </div>
-                <div className={styles.progressBar}>
-                    {testimonials.map((_, index) => {
-                        return <span className={`${styles.dot} ${index + 1 === activeTestimonial.id ? styles.active : ''} ${index + 1 === activeTestimonial.id - 1 ? styles.semiActive : ''}`} key={index}></span>
-                    })}
+                    <div className="filler"></div>
+                    <div className={styles.progressBar}>
+                        {testimonials.map((_, index) => {
+                            return <span className={`${styles.dot} ${index + 1 === activeTestimonial.id ? styles.active : ''} ${index + 1 === activeTestimonial.id - 1 ? styles.semiActive : ''}`} key={index}></span>
+                        })}
+                    </div>
                 </div>
             </div>
         </div>

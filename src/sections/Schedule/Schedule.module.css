@@ -23,7 +23,7 @@
 .scheduleInnerContainer {
     margin-top: 3rem;
     width: 100%;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .scheduleInnerSubContainer{

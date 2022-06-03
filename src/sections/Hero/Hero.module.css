@@ -4,8 +4,8 @@
 }
 
 .primaryText {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 1.25;
     margin: 2.5rem 0 2rem 0;
     color: var(--white);
     font-weight: 600;
@@ -113,8 +113,9 @@
 
 .testimonialContainer {
     display: flex;
+    flex-direction: column;
+    min-height: calc(370px - 110px);
     gap: 1rem;
-    margin-bottom: 2.5rem;
 }
 
 .testimonialDescription {
@@ -145,10 +146,14 @@
 }
 
 .progressBar {
-    position: absolute;
-    bottom: 10%;
+    /* position: absolute; */
+    /* bottom: 10px; */
     display: flex;
     align-items: center;
+}
+
+.filler {
+    flex-grow: 4;
 }
 
 .dot {

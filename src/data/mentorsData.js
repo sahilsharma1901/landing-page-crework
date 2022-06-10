@@ -18,21 +18,11 @@ export const mentorsData = [
     {
         image: Dushyant,
         name: "Dushyant Pratap Singh",
-        designation: "Software Engineer",
+        designation: "Senior Software Engineer",
         where: "Grappus",
         socials: [
             "https://twitter.com/dusht1408",
             "https://www.linkedin.com/in/dushyant865/"
-        ]
-    },
-    {
-        image: Manthan,
-        name: "Manthan Gupta",
-        designation: "Senior Software Engineer",
-        where: "Merkle Science",
-        socials: [
-            "https://twitter.com/manthanguptaa",
-            "https://www.linkedin.com/in/manthangupta109/"
         ]
     },
     {
@@ -43,6 +33,16 @@ export const mentorsData = [
         socials: [
             "https://twitter.com/rizwan2000_rm",
             "https://www.linkedin.com/in/rizwan2000rm/"
+        ]
+    },
+    {
+        image: Manthan,
+        name: "Manthan Gupta",
+        designation: "Senior Software Engineer",
+        where: "Merkle Science",
+        socials: [
+            "https://twitter.com/manthanguptaa",
+            "https://www.linkedin.com/in/manthangupta109/"
         ]
     },
     {

@@ -6,9 +6,19 @@ import Sahil from '../assets/images/sahil_final.jpg'
 
 export const mentorsData = [
     {
+        image: Ishant,
+        name: "Ishant Juyal",
+        designation: "Co-founder",
+        where: "Crework",
+        socials: [
+            "https://twitter.com/juyal_ishant",
+            "https://www.linkedin.com/in/ishantjuyal/"
+        ]
+    },
+    {
         image: Dushyant,
         name: "Dushyant Pratap Singh",
-        designation: "Backend Engineer",
+        designation: "Software Engineer",
         where: "Grappus",
         socials: [
             "https://twitter.com/dusht1408",
@@ -26,19 +36,9 @@ export const mentorsData = [
         ]
     },
     {
-        image: Sahil,
-        name: "Sahil Sharma",
-        designation: "Software Engineer",
-        where: "Procedure",
-        socials: [
-            "https://twitter.com/sahilasharma19",
-            "https://www.linkedin.com/in/sahilasharma/"
-        ]
-    },
-    {
         image: Rizwan,
         name: "Rizwan Memon",
-        designation: "Frontend Engineer",
+        designation: "Software Engineer",
         where: "Procedure",
         socials: [
             "https://twitter.com/rizwan2000_rm",
@@ -46,13 +46,13 @@ export const mentorsData = [
         ]
     },
     {
-        image: Ishant,
-        name: "Ishant Juyal",
-        designation: "Product Associate",
-        where: "Procedure",
+        image: Sahil,
+        name: "Sahil Sharma",
+        designation: "Co-founder",
+        where: "Crework",
         socials: [
-            "https://twitter.com/juyal_ishant",
-            "https://www.linkedin.com/in/ishantjuyal/"
+            "https://twitter.com/sahilasharma19",
+            "https://www.linkedin.com/in/sahilasharma/"
         ]
     },
 ]

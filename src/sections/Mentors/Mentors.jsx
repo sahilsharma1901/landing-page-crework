@@ -29,6 +29,7 @@ const Mentors = () => {
                             </ul>
                             <h2 className={styles.name}>{item.name}</h2>
                             <h3 className={styles.designation}>{item.designation}</h3>
+                            <h3 className={styles.where}>{item.where}</h3>
                         </div>
                     )
                 })

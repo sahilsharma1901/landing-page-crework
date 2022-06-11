@@ -45,7 +45,7 @@ const Hero = () => {
         <div className={styles.heroInnerContainer}>
             <div className={styles.CTAContainer}>
                 <a href="https://tally.so/r/3jaQoE" target="_blank" rel="noreferrer" className={styles.joinWaitlist}>Join BWU Waitlist</a>
-                <a href="https://tally.so/r/31AXpM" className={styles.knowMore}>Join Beginner Waitlist</a>
+                <a href="https://tally.so/r/31AXpM" target="_blank" rel="noreferrer" className={styles.knowMore}>Join Beginner Waitlist</a>
             </div>
             <div className={styles.testimonialsCard}>
                 <div className={styles.cardHeader}>

@@ -40,10 +40,14 @@
     justify-content: space-between;
     gap: 15px;
     margin-top: 2rem;
+    flex-direction: column;
 }
 
 .joinWaitlist, .knowMore {
-    display: inline-block;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
     padding: .6rem 2rem;
     border-radius: 8px;
     font-weight: 500;
@@ -203,7 +207,15 @@
         display: flex;
         align-items: center;
         flex: 2;
+        flex-direction: row;
         justify-content: flex-start;
+    }
+
+    .joinWaitlist, .knowMore {
+        display: inline-block;
+        width: max-content;
+        text-align: center;
+        margin: 0;
     }
 
     .testimonialsCard {

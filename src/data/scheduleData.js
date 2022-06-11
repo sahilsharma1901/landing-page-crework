@@ -102,7 +102,7 @@ export const sessionData = [
                 title: "UI/ UX Session Part 1",
                 day: "Tuesday",
                 date: "12 July",
-                by: "Abhishek Saha"
+                by: "Ayushi Kulshreshtha"
             },
             {
                 title: "LLD Session Part 1",
@@ -118,7 +118,7 @@ export const sessionData = [
                 title: "UI/ UX Session Part 2",
                 day: "Tuesday",
                 date: "19 July",
-                by: "Abhishek Saha"
+                by: "Ayushi Kulshreshtha"
             },
             {
                 title: "LLD Session Part 2",

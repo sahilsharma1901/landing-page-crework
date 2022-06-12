@@ -44,8 +44,8 @@ const Hero = () => {
         <p className={styles.secondaryText}>Ideate, build, network and get mentored <br/> with the best people in tech</p>
         <div className={styles.heroInnerContainer}>
             <div className={styles.CTAContainer}>
-                <a href="https://tally.so/r/3jaQoE" target="_blank" rel="noreferrer" className={styles.joinWaitlist}>Join BWU Waitlist</a>
-                <a href="https://tally.so/r/31AXpM" target="_blank" rel="noreferrer" className={styles.knowMore}>Join Beginner Waitlist</a>
+                <a href="https://tally.so/r/31AXpM" target="_blank" rel="noreferrer" className={styles.joinWaitlist}>Join Beginner Waitlist</a>
+                <a href="https://tally.so/r/3jaQoE" target="_blank" rel="noreferrer" className={styles.knowMore}>Join BWU Waitlist</a>
             </div>
             <div className={styles.testimonialsCard}>
                 <div className={styles.cardHeader}>

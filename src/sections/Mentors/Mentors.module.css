@@ -35,6 +35,10 @@
     object-position: top
 }
 
+.ayushi {
+    object-position: unset;
+}
+
 .socialsList {
     display: flex;
     align-items: center;

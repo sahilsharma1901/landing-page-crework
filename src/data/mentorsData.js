@@ -17,6 +17,16 @@ export const mentorsData = [
         ]
     },
     {
+        image: Sahil,
+        name: "Sahil Sharma",
+        designation: "Co-founder",
+        where: "Crework",
+        socials: [
+            "https://twitter.com/sahilasharma19",
+            "https://www.linkedin.com/in/sahilasharma/"
+        ]
+    },
+    {
         image: Dushyant,
         name: "Dushyant Pratap Singh",
         designation: "Senior Software Engineer",
@@ -24,6 +34,16 @@ export const mentorsData = [
         socials: [
             "https://twitter.com/dusht1408",
             "https://www.linkedin.com/in/dushyant865/"
+        ]
+    },
+    {
+        image: Manthan,
+        name: "Manthan Gupta",
+        designation: "Senior Software Engineer",
+        where: "Merkle Science",
+        socials: [
+            "https://twitter.com/manthanguptaa",
+            "https://www.linkedin.com/in/manthangupta109/"
         ]
     },
     {
@@ -44,26 +64,6 @@ export const mentorsData = [
         socials: [
             "https://twitter.com/ayushikul_02",
             "https://www.linkedin.com/in/ayushikulshreshtha/"
-        ]
-    },
-    {
-        image: Manthan,
-        name: "Manthan Gupta",
-        designation: "Senior Software Engineer",
-        where: "Merkle Science",
-        socials: [
-            "https://twitter.com/manthanguptaa",
-            "https://www.linkedin.com/in/manthangupta109/"
-        ]
-    },
-    {
-        image: Sahil,
-        name: "Sahil Sharma",
-        designation: "Co-founder",
-        where: "Crework",
-        socials: [
-            "https://twitter.com/sahilasharma19",
-            "https://www.linkedin.com/in/sahilasharma/"
         ]
     },
 ]

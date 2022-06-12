@@ -1,28 +1,15 @@
 import './App.css';
-import FAQ from './sections/FAQ/FAQ';
-import Features from './sections/Features/Features';
-import Footer from './sections/Footer/Footer';
-import Hero from './sections/Hero/Hero';
-import Mentors from './sections/Mentors/Mentors';
-import Navbar from './sections/Navbar/Navbar'
-import Schedule from './sections/Schedule/Schedule';
-import CTA from './sections/SecondCTA/CTA';
-import Stats from './sections/Stats/Stats';
-import WorkReady from './sections/WorkReady/WorkReady';
+import BWU from './pages/BWU';
+import About from './pages/About';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className='App'>
-      <Navbar/>
-      <Hero/>
-      <Stats/>
-      <WorkReady/>
-      <Schedule/>
-      <Features/>
-      <Mentors/>
-      <CTA/>
-      <FAQ/>
-      <Footer/>
+      <Routes>
+        <Route path="/" exact element={<BWU />} />
+        <Route path="about" element={<About />} />
+      </Routes>
     </div>
   );
 }

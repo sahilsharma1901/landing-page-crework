@@ -4,3 +4,8 @@
     position: absolute;
     z-index: -1;
 }
+
+.bgImage.hidden {
+    display: none;
+    z-index: unset;
+}

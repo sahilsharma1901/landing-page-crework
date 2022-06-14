@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './About.module.css'
 import {teamData as data} from "../data/teamData"
+import Twitter from "../assets/icons/twitter-team.png"
+import Linkedin from "../assets/icons/linkedin-team.png"
 
 const About = () => {
   return (
@@ -32,6 +34,14 @@ const About = () => {
                     <div className={styles.infoInner}>
                       <h4 className={styles.name}>{member.name}</h4>
                       <h4 className={styles.role}>{member.designation}</h4>
+                      <p className={styles.socials}>
+                        <a href={member.socials[0]} className={styles.link}>
+                          <img src={Twitter} alt="Twitter"/>
+                        </a>
+                        <a href={member.socials[1]} className={styles.link}>
+                        <img src={Linkedin} alt="Linkedin"/>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>

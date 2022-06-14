@@ -91,6 +91,22 @@
     color: var(--black);
 }
 
+.socials {
+    margin-top: .25rem;
+}
+
+.link {
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.link img {
+    width: 1.5rem;
+    height: auto;
+    object-fit: contain;
+}
+
+
 @media only screen and (min-width: 768px) {
     .teamContainer {
         flex-direction: row;

@@ -10,6 +10,8 @@ const Graduates = () => {
     window.scrollTo({top: 0})
   }, [])
 
+  return null
+
   return (
     <>
       <Navbar/>

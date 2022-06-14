@@ -1,0 +1,121 @@
+.aboutContainer {
+    color: var(--white);
+    width: 80%;
+    margin: 2rem auto 0 auto;
+}
+
+.heading {
+    font-size: 3.5rem;
+    letter-spacing: .01em;
+    line-height: 4.5rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.content {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contentWrapper {
+    margin: 3rem 0;
+    width: 100%;
+}
+
+.subHeading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+}
+
+.subHeading.center {
+    text-align: center;
+}
+
+.teamContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 3rem 0 0 0;
+    padding-bottom: 5rem;
+}
+
+.card {
+    width: 100%;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.image {
+    width: 100%;
+    min-width: 200px;
+    height: 25rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: .75rem;
+}
+
+.infoContainer {
+    position: absolute;
+    width: 100%;
+    bottom: .75rem;
+    left: 0;
+}
+
+.infoInner {
+    width: 95%;
+    margin: 0 auto;
+    padding: .5rem;
+    background-color: var(--off-white);
+    border-radius: .75rem;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.role {
+    font-size: .9rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+@media only screen and (min-width: 768px) {
+    .teamContainer {
+        flex-direction: row;
+    }
+    
+    .card {
+        width: calc(50% - 1.5rem);
+        position: relative;
+        margin: 1rem 0;
+    }
+    
+    .image {
+        width: 100%;
+        min-width: 200px;
+        height: 25rem;
+        object-fit: cover;
+        object-position: top;
+        border-radius: .75rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {    
+    .card {
+        width: calc(33% - 1.5rem);
+        position: relative;
+        margin: 1rem 0;
+    }
+}

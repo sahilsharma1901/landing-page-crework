@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './About.module.css'
 import {teamData as data} from "../data/teamData"
 import Twitter from "../assets/icons/twitter-team.png"
@@ -7,6 +7,11 @@ import Navbar from '../sections/Navbar/Navbar'
 import Footer from '../sections/Footer/Footer'
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo({top: 0})
+  }, [])
+  
   return (
     <>
       <Navbar/>

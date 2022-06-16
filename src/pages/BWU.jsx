@@ -9,19 +9,19 @@ import Schedule from '../sections/Schedule/Schedule';
 import CTA from '../sections/SecondCTA/CTA';
 import Stats from '../sections/Stats/Stats';
 import WorkReady from '../sections/WorkReady/WorkReady';
+import BeginnerHero from '../sections/Beginner_Hero/Hero';
+import BeginnerFeatures from '../sections/Beginner_Features/BeginnerFeatures';
+import BeginnerFAQ from '../sections/Beginner_FAQ/BeginnerFAQ';
+import BeginnerWho from '../sections/Beginner_Who/BeginnerWho';
 
 const BWU = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>
-      <Stats/>
-      <WorkReady/>
-      <Schedule/>
-      <Features/>
-      <Mentors/>
-      <CTA/>
-      <FAQ/>
+      <BeginnerHero/>
+      <BeginnerWho/>
+      <BeginnerFeatures/>
+      <BeginnerFAQ/>
       <Footer/>
     </div>
   )

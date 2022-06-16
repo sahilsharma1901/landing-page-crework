@@ -30,12 +30,6 @@ const Footer = () => {
             <p className={styles.link}><NavLink to="/about" style={({isActive}) => ({
     color: isActive ? '#ffac2f' : '#fff',
   })}>About</NavLink></p>
-            <p className={styles.link}><NavLink to="/projects" style={({isActive}) => ({
-    color: isActive ? '#ffac2f' : '#fff',
-  })}>Projects</NavLink></p>
-            <p className={styles.link}><NavLink to="/graduates" style={({isActive}) => ({
-    color: isActive ? '#ffac2f' : '#fff',
-  })}>Graduates</NavLink></p>
         </div>
         <p className={styles.footerText}>Copyrights &copy; 2022 Crework. All rights reserved.</p>
     </div>

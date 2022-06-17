@@ -13,6 +13,7 @@ import BeginnerHero from '../sections/Beginner_Hero/Hero';
 import BeginnerFeatures from '../sections/Beginner_Features/BeginnerFeatures';
 import BeginnerFAQ from '../sections/Beginner_FAQ/BeginnerFAQ';
 import BeginnerWho from '../sections/Beginner_Who/BeginnerWho';
+import BeginnerSchedule from '../sections/Beginner_Schedule/BeginnerSchedule';
 
 const BWU = () => {
   return (
@@ -21,6 +22,7 @@ const BWU = () => {
       <BeginnerHero/>
       <BeginnerWho/>
       <BeginnerFeatures/>
+      <BeginnerSchedule/>
       <BeginnerFAQ/>
       <Footer/>
     </div>

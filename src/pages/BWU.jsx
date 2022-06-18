@@ -1,19 +1,21 @@
 import React from 'react'
-import FAQ from '../sections/FAQ/FAQ';
-import Features from '../sections/Features/Features';
-import Footer from '../sections/Footer/Footer';
-import Hero from '../sections/Hero/Hero';
-import Mentors from '../sections/Mentors/Mentors';
-import Navbar from '../sections/Navbar/Navbar'
-import Schedule from '../sections/Schedule/Schedule';
-import CTA from '../sections/SecondCTA/CTA';
-import Stats from '../sections/Stats/Stats';
-import WorkReady from '../sections/WorkReady/WorkReady';
+// import FAQ from '../sections/FAQ/FAQ';
+// import Features from '../sections/Features/Features';
+// import Hero from '../sections/Hero/Hero';
+// import Mentors from '../sections/Mentors/Mentors';
+// import Schedule from '../sections/Schedule/Schedule';
+// import CTA from '../sections/SecondCTA/CTA';
+// import Stats from '../sections/Stats/Stats';
+// import WorkReady from '../sections/WorkReady/WorkReady';
 import BeginnerHero from '../sections/Beginner_Hero/Hero';
+import Navbar from '../sections/Navbar/Navbar'
+import Footer from '../sections/Footer/Footer';
 import BeginnerFeatures from '../sections/Beginner_Features/BeginnerFeatures';
 import BeginnerFAQ from '../sections/Beginner_FAQ/BeginnerFAQ';
 import BeginnerWho from '../sections/Beginner_Who/BeginnerWho';
-import BeginnerSchedule from '../sections/Beginner_Schedule/BeginnerSchedule';
+import BeginnerCTA from '../sections/Beginner_SecondCTA/BeginnerCTA';
+import BeginnerMentors from '../sections/Beginner_Mentors/BeginnerMentors';
+import SubCTA from '../sections/Beginner_SubCTA/SubCTA';
 
 const BWU = () => {
   return (
@@ -22,7 +24,9 @@ const BWU = () => {
       <BeginnerHero/>
       <BeginnerWho/>
       <BeginnerFeatures/>
-      <BeginnerSchedule/>
+      <SubCTA/>
+      <BeginnerMentors/>
+      <BeginnerCTA/>
       <BeginnerFAQ/>
       <Footer/>
     </div>

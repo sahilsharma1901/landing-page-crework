@@ -30,6 +30,7 @@ const Footer = () => {
             <p className={styles.link}><NavLink to="/about" style={({isActive}) => ({
     color: isActive ? '#ffac2f' : '#fff',
   })}>About</NavLink></p>
+            <p className={styles.link}><a href="https://crework.notion.site/Refund-Policy-daf75990c290479d8fe421bfbc9ddc6e" target="_blank" rel="noreferrer">Refund Policy</a></p>
         </div>
         <p className={styles.footerText}>Copyrights &copy; 2022 Crework. All rights reserved.</p>
     </div>

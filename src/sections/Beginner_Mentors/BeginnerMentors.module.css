@@ -1,0 +1,94 @@
+.mentorsContainer {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    background-color: var(--black);
+}
+
+.heading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.mentorsInnerContainer {
+    width: 90%;
+    margin: 3rem auto;
+    display: grid;
+    gap: 2rem;
+    row-gap: 3.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.mentorCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 14rem;
+    height: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: top
+}
+
+.ayushi {
+    object-position: unset;
+}
+
+.socialsList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.social {
+    margin: .5rem;
+}
+
+.social a img {
+    width: 1.75rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white);
+    letter-spacing: .01em;
+}
+
+.designation {
+    font-weight: 500;
+    font-size: .9rem;
+    color: var(--text-grey);
+}
+
+.where {
+    font-weight: 400;
+    font-size: .75rem;
+    color: var(--text-grey);
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 2rem;
+        letter-spacing: .02em;
+        display: block;
+        text-align: center;
+        position: static;
+    }
+
+    .mentorsContainer {
+        margin-top: 5rem;
+    }
+
+    .mentorsInnerContainer {
+        margin-top: 4rem;
+    }
+}

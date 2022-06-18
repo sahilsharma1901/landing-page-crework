@@ -50,7 +50,9 @@ let monthData = {
   },
   "Month 6": {
     content: [
-      "Final Project/ Hackathon",
+      "The last month would be dedicated to building one final project.",
+      "It will accumulate all your learnings",
+      "This might be a team project or even a hackathon 👀 "
     ]
   },
 }
@@ -65,8 +67,7 @@ const BeginnerSchedule = () => {
 
   return (
     <div className={styles.scheduleContainer}>
-        <h2 className={styles.heading}>How we do things?</h2>
-        <h4 className={styles.subHeading}>Curriculum &amp; Sessions</h4>
+        <h2 className={styles.heading}>The Curriculum</h2>
         <div className={styles.scheduleInnerContainer}>
           <div className={styles.header}>
             {Object.keys(monthData).map((month, index) => {
@@ -80,7 +81,7 @@ const BeginnerSchedule = () => {
           </div>
           <div className={styles.main}>
             {schedule[`Month ${activeMonth}`].content.map((content, index) => {
-              return <p key={index}>{content}</p>
+              return <p key={index}>👉🏻 {content}</p>
             })}
           </div>
         </div>

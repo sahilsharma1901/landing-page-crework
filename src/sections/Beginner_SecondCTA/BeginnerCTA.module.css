@@ -1,0 +1,53 @@
+.CTAContainer {
+    width: 100%;
+    padding: 4rem 0;
+    background: linear-gradient(97.36deg, var(--fire-gradient-start) 15.77%, var(--fire-gradient-end) 156.09%);
+    background: -moz-linear-gradient(0deg, var(--fire-gradient-start) 20%, var(--fire-gradient-end) 100%);
+    background: -webkit-linear-gradient(0deg, var(--fire-gradient-start) 20%, var(--fire-gradient-end) 100%);
+}
+
+.innerCTA {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.text {
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.exploreButton {
+    padding: .6rem 3rem;
+    color: var(--black);
+    background-color: var(--white);
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.preText {
+    font-size: 1.69rem;
+    text-align: right;
+    margin-right: 5rem;
+    margin-bottom: .25rem;
+    letter-spacing: .02em;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 700px) {
+    .innerCTA {
+        display: flex;
+    }
+
+    .exploreButton {
+        margin-top: 0;
+    }
+}

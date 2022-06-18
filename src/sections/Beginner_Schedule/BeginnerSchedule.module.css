@@ -1,42 +1,39 @@
 .scheduleContainer {
     width: 90%;
-    margin: 2rem auto;
+    margin: 2rem auto 4rem auto;
     color: white;
 }
 
 .heading {
-    font-size: 1.25rem;
+    font-size: 2rem;
     text-align: center;
     color: var(--primary);
     font-weight: 500;
-    position: relative;
-}
-
-.subHeading {
-    font-size: 1rem;
-    text-align: center;
-    color: var(--text-light-grey);
-    font-weight: 500;
-    position: relative;
+    letter-spacing: .02em;
+    display: block;
+    position: static;
 }
 
 .scheduleInnerContainer {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 3rem;
-    padding: 2rem 4rem;
+    padding: 4rem;
     background-color: var(--dull-bg-1);
+    border-radius: 1rem;
 }
 
 .header {
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: 0rem;
 }
 
 .month {
     flex: 1;
+    flex-shrink: 1;
     text-align: center;
+    margin: 1rem 0;
 }
 
 .month input[type="radio"]{
@@ -44,19 +41,25 @@
 }
 
 .month label {
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     border: 2px solid var(--text-light-grey-2);
     border-radius: .25rem;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .month .active + label {
-    background-color: var(--secondary);
-    border: 2px solid var(--secondary);
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
     color: var(--black);
 }
 
 .main {
     margin-top: 3rem;
-    height: 10rem;
+    height: 15rem;
+    margin-left: 3rem;
+}
+
+.main p {
+    margin: 1rem 0;
 }

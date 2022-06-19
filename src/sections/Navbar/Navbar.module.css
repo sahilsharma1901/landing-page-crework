@@ -21,7 +21,7 @@
 }
 
 .exploreButton {
-    padding: .6rem 2rem;
+    padding: .3rem 1rem;
     color: var(--white);
     /* background: linear-gradient(97.36deg, var(--fire-gradient-start) 15.77%, var(--fire-gradient-end) 156.09%);
     background: -moz-linear-gradient(0deg, var(--fire-gradient-start) 20%, var(--fire-gradient-end) 100%);
@@ -29,7 +29,7 @@
     border-radius: 8px;
     font-size: 1rem;
     transition: all 200ms;
-    display: none;
+    /* display: none; */
     font-weight: 500;
     border: 2px solid var(--dull-bg-1);
 }
@@ -41,6 +41,7 @@
 @media only screen and (min-width: 768px) {
     .exploreButton {
         display: block;
+        padding: .6rem 2rem;
     }
 
     .logo {

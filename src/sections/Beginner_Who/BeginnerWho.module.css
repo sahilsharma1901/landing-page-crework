@@ -1,118 +1,116 @@
 .workReadyContainer {
-    width: 85%;
-    margin: 4rem auto;
+  width: 85%;
+  margin: 4rem auto;
 }
 
 .heading {
-    font-size: 1.25rem;
-    text-align: center;
-    color: var(--text-light-grey);
-    font-weight: 500;
-    position: relative;
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--text-light-grey);
+  font-weight: 500;
+  position: relative;
 }
 
 .highlight {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .workReadyCards {
-    margin-top: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .workReadyCard {
-    background-color: var(--image-bg);
-    padding: 1rem;
-    width: 100%;
-    margin: 1rem;
-    border-radius: 1rem;
+  background-color: var(--image-bg);
+  padding: 1rem;
+  width: 100%;
+  margin: 1rem;
+  border-radius: 1rem;
 }
 
 .imageContainer {
-    width: 3.5rem;
-    height: auto;
-    margin: 1rem auto;
+  width: 3.5rem;
+  height: auto;
+  margin: 1rem auto;
 }
 
 .image {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .itemHeading {
-    font-weight: 500;
-    color: var(--secondary);
-    font-size: 1rem;
-    margin: .5rem 0 1rem 0;
-    text-align: center;
+  font-weight: 500;
+  color: var(--secondary);
+  font-size: 1rem;
+  margin: 0.5rem 0 1rem 0;
+  text-align: center;
 }
 
 .itemDescription {
-    color: var(--text-light-grey-2);
-    font-weight: 300;
-    font-size: .85rem;
+  color: var(--text-light-grey-2);
+  font-weight: 300;
+  font-size: 0.85rem;
 }
 
-
 @media only screen and (min-width: 768px) {
-    .workReadyContainer {
-        margin: 5rem auto;
-    }
-    
-    .heading {
-        font-size: 2rem;
-        letter-spacing: .02em;
-        display: inline-block;
-        text-align: left;
-        max-width: 250px;
-    }
-    
-    .heading::after {
-        content: url('../../assets/images/curl_arrow.svg');
-        position: absolute;
-        bottom: -100px;
-    }
+  .workReadyContainer {
+    margin: 5rem auto;
+  }
 
-    .workReadyCards {
-        margin-top: 4rem;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* align-items: center; */
-        /* flex-wrap: wrap; */
-        display: grid;
-        gap: 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-    
-    .workReadyCard {
-        background-color: var(--image-bg);
-        padding: 1rem;
-        /* width: calc(25% - 2rem); */
-        margin: 0 !important;
-        height: 20rem;
-        padding-top: 2rem;
-        border-radius: 1rem;
-    }
-    
-    .imageContainer {
-        width: 6rem;
-        height: auto;
-    }
-    
-    .itemHeading {
-        font-weight: 500;
-        color: var(--primary);
-        font-size: 1rem;
-        margin: 2.5rem auto 1rem auto;
-        width: 75%;
-    }
-    
-    .itemDescription {
-        color: var(--text-light-grey-2);
-        font-weight: 300;
-        font-size: .85rem;
-    }
+  .heading {
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    text-align: left;
+    max-width: 250px;
+  }
+
+  .heading::after {
+    content: url("../../assets/images/curl_arrow.svg");
+    position: absolute;
+    bottom: -100px;
+  }
+
+  .workReadyCards {
+    margin-top: 4rem;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, 1fr);
+  }
+
+  .workReadyCard {
+    background-color: var(--image-bg);
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding-top: 2rem;
+    border-radius: 1rem;
+  }
+
+  .imageContainer {
+    width: 6rem;
+    height: auto;
+  }
+
+  .itemHeading {
+    font-weight: 500;
+    color: var(--primary);
+    font-size: 1rem;
+  }
+
+  .itemDescription {
+    color: var(--text-light-grey-2);
+    font-weight: 300;
+    font-size: 0.85rem;
+  }
 }

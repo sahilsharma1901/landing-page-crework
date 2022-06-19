@@ -29,12 +29,14 @@
     transform: translateX(.5rem);
 }
 
-.first::after {
-    content: '';
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: var(--white);
-    height: 2px;
-    bottom: -.1rem;
+@media (min-width: 768px) {
+    .first::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: var(--white);
+        height: 2px;
+        bottom: -.1rem;
+    }
 }

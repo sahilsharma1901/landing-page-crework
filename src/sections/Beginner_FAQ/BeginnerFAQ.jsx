@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import parse from 'html-react-parser';
 import styles from './BeginnerFAQ.module.css'
 import {beginnerFaqData as data} from "../../data/beginnerFaqData"
 import plus from '../../assets/icons/plus.png'
@@ -39,6 +40,11 @@ const BeginnerFAQ = () => {
                             </div>
                             <div className={`${styles.FAQBody} ${item.opened ? styles.opened : ''}`}>
                                 <p className={styles.text}>{item.answer.map((sentence, idx) => {
+                                    if(item.link) {
+                                        const linkSentence = sentence.replace(item.link.anchor, `<a href="${item.link.url}" target="_blank">${item.link.anchor}</a>`)
+                                        return <p className={styles.text} key={idx}>{parse(linkSentence)}</p>
+                                    }
+
                                     return <p className={styles.text} key={idx}>{sentence}</p>
                                 })}</p>
                             </div>

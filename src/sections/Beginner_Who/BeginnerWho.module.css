@@ -1,6 +1,6 @@
 .workReadyContainer {
-    width: 90%;
-    margin: 5rem auto;
+    width: 85%;
+    margin: 4rem auto;
 }
 
 .heading {
@@ -25,7 +25,7 @@
 .workReadyCard {
     background-color: var(--image-bg);
     padding: 1rem;
-    width: 90%;
+    width: 100%;
     margin: 1rem;
     border-radius: 1rem;
 }
@@ -33,7 +33,7 @@
 .imageContainer {
     width: 3.5rem;
     height: auto;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
 .image {
@@ -47,6 +47,7 @@
     color: var(--secondary);
     font-size: 1rem;
     margin: .5rem 0 1rem 0;
+    text-align: center;
 }
 
 .itemDescription {
@@ -57,11 +58,16 @@
 
 
 @media only screen and (min-width: 768px) {
+    .workReadyContainer {
+        margin: 5rem auto;
+    }
+    
     .heading {
         font-size: 2rem;
         letter-spacing: .02em;
         display: inline-block;
         text-align: left;
+        max-width: 250px;
     }
     
     .heading::after {
@@ -91,14 +97,12 @@
     .imageContainer {
         width: 6rem;
         height: auto;
-        margin: 1rem auto;
     }
     
     .itemHeading {
         font-weight: 500;
         color: var(--primary);
         font-size: 1rem;
-        text-align: center;
         margin: 2.5rem auto 1rem auto;
         width: 75%;
     }

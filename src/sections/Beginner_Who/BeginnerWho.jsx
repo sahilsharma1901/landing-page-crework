@@ -5,7 +5,7 @@ import {beginnerWho as data} from '../../data/beginnerWhoData'
 const WorkReady = () => {
   return (
     <div id="knowMore" className={styles.workReadyContainer}>
-        <h2 className={styles.heading}>Who is this <br/> <span className={styles.highlight}>program</span> for</h2>
+        <h2 className={styles.heading}>Who is this <span className={styles.highlight}>program</span> for</h2>
         <div className={styles.workReadyCards}>
             {data.map((item, index) => {
                 return (

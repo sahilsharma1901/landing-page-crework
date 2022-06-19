@@ -17,7 +17,7 @@ export const beginnerFaqData = [
         opened: false
     },
     {
-        question: "How much time will I have to spend?",
+        question: "How much time would I need to spend?",
         answer: [
             "You would need to spend around 20 hours a week including the sessions, meet-ups and workshops per week. Well, it is going to be something technical from scratch, and you want it to be perfect right? Needs some dedication then, and we totally know that you can do it!"
         ],
@@ -53,8 +53,12 @@ export const beginnerFaqData = [
     {
         question: "What is the application procedure?",
         answer: [
-            "You can apply whenever the application window is open. Otherwise, you can join the waitlist too. You’ll need to fill a form to tell us a little about yourself. Then you make the payment, and Voila! you’re done!"
+            "You can apply using this link: Click here"
         ],
+        link: {
+            anchor: "Click here",
+            url: "https://pages.razorpay.com/beginner-cohort-1",
+        },
         id: "7",
         opened: false
     },
@@ -72,11 +76,31 @@ export const beginnerFaqData = [
         opened: false
     },
     {
+        question: "Can I cancel or apply for a refund?",
+        answer: [
+            "You can request for a full refund within the first 14 days after the batch starts. Read the refund policy here"
+        ],
+        link: {
+            anchor: "here",
+            url: "https://crework.notion.site/crework/Refund-Policy-daf75990c290479d8fe421bfbc9ddc6e",
+        },
+        id: "9",
+        opened: false
+    },
+    {
+        question: "Will I get a certificate on the completion of the cohort?",
+        answer: [
+            "Yes, you will get a certificate and a unique link to showcase that you completed the beginner cohort with us."
+        ],
+        id: "10",
+        opened: false
+    },
+    {
         question: "I have more queries, how do I reach out you?",
         answer: [
-            "If you have any more queries, feel free to reach out at creworkgroup@gmail.com"
+            "If you have any more queries, feel free to reach out at support@crework.in"
         ],
-        id: "9",
+        id: "11",
         opened: false
     },
 ]

@@ -80,6 +80,14 @@
     pointer-events: none;
 }
 
+.FAQBody a {
+    color: var(--primary);
+}
+
+.FAQBody a:hover {
+    color: var(--secondary);
+}
+
 .FAQBody.opened {
     max-height: 500px;
     opacity: 1;

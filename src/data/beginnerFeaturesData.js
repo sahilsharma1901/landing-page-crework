@@ -8,7 +8,7 @@ import target from '../assets/icons/target.png'
 export const beginnerFeaturesData = [
     {
         icon: learn,
-        description: "Learn and grow with the community",
+        description: "Don't learn alone, do it with the community and see yourself grow",
     },
     {
         icon: target,
@@ -16,7 +16,7 @@ export const beginnerFeaturesData = [
     },
     {
         icon: doubt,
-        description: "Get your doubts solved on a daily basis",
+        description: "Instead of sitting with your doubts, get them solved by our mentors daily",
     },
     {
         icon: tutorial,

@@ -7,7 +7,7 @@ const BeginnerCTA = () => {
         <div className={styles.innerCTA}>
             <h2 className={styles.text}>Aap convince hogye<br/>ya main aur bolun?</h2>
             <div className={styles.container}>
-              <h6 className={styles.preText}>At just &#8377;1999</h6>
+              <h6 className={styles.preText}>At just &#8377; 1999</h6>
               <a href='https://pages.razorpay.com/beginner-cohort-1' target="_blank" rel="noreferrer" className={styles.exploreButton}>Apply now</a>
             </div>
         </div>

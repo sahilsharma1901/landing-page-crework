@@ -30,6 +30,7 @@
     font-weight: 500;
     margin-right: 5rem;
     display: inline-block;
+    white-space: nowrap;
 }
 
 .preText {
@@ -47,6 +48,10 @@
     }
 
     .exploreButton {
+        margin-top: 0;
+    }
+
+    .preText {
         margin-top: 0;
     }
 }

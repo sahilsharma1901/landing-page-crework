@@ -78,17 +78,20 @@
 
     .workReadyCards {
         margin-top: 4rem;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: wrap;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* align-items: center; */
+        /* flex-wrap: wrap; */
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
     
     .workReadyCard {
         background-color: var(--image-bg);
         padding: 1rem;
-        width: calc(25% - 2rem);
-        margin: 1rem;
+        /* width: calc(25% - 2rem); */
+        margin: 0 !important;
         height: 20rem;
         padding-top: 2rem;
         border-radius: 1rem;

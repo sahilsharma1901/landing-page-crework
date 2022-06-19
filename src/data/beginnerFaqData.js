@@ -2,8 +2,7 @@ export const beginnerFaqData = [
     {
         question: "What is Crework?",
         answer: [
-            "Crework is an online community which helps you learn by building better projects.",
-            "We host an 8 week long cohort called ‘Build With Us’ where we select a few folks to help them build a project from scratch and with people who have complementary skills and a similar learning attitude."
+            "Crework is an online community that helps you learn by building better projects.",
         ],
         id: "1",
         opened: false
@@ -19,15 +18,15 @@ export const beginnerFaqData = [
     {
         question: "How much time would I need to spend?",
         answer: [
-            "You would need to spend around 20 hours a week including the sessions, meet-ups and workshops per week. Well, it is going to be something technical from scratch, and you want it to be perfect right? Needs some dedication then, and we totally know that you can do it!"
+            "You would need to spend around 20 hours a week including the sessions, meet-ups and workshops. Well, it is going to be something technical from scratch, and you want it to be perfect right? Needs some dedication then, and we totally know that you can do it!"
         ],
         id: "3",
         opened: false
     },
     {
-        question: "What is the cost for the cohort?",
+        question: "What is the fee for the cohort?",
         answer: [
-            "We charge you a very minimal fee of just Rs. 1999/- for 6 months. Yes, that’s all for all the benefits. All we want is your undivided attention and dedication to become the best Web developer!"
+            "We charge a minimal fee of Rs. 1999 per person for the cohort."
         ],
         id: "4",
         opened: false

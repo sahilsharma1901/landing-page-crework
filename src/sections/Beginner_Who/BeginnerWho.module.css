@@ -77,14 +77,11 @@
 
   .workReadyCards {
     margin-top: 4rem;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: center; */
-    /* flex-wrap: wrap; */
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fit, 1fr);
+    justify-content: space-evenly;
   }
 
   .workReadyCard {

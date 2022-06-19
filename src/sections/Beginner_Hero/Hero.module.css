@@ -1,0 +1,229 @@
+.heroContainer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.primaryText {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin: 1rem 0;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.highlight {
+    background: linear-gradient(90deg, var(--fire-gradient-start), var(--fire-gradient-end));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secondaryText {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: .25rem 0;
+    color: var(--text-grey);
+    font-weight: 400;
+}
+
+.CTAContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.joinWaitlist, .knowMore {
+    display: block;
+    /* width: 90%; */
+    margin: 0 auto;
+    text-align: center;
+    padding: .6rem 2rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 2px solid var(--white);
+    background-color: var(--white);
+    transition: all 200ms;
+}
+
+.knowMore {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.joinWaitlist:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+    border: 2px solid var(--secondary);
+}
+
+.testimonialsCard {
+    background: rgba(255, 255, 255, 0.075);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    padding: 2rem 1.5rem 2rem 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    min-height: 370px;
+    transition: all 400ms;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.DP {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding: .5rem;
+    background-color: #343434;
+}
+
+.DP > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonialHeader {
+    font-weight: 400;
+    color: var(--white);
+    font-size: 1.25rem;
+}
+
+.p_text, .s_text {
+    display: block;
+}
+
+.s_text {
+    font-size: .8rem;
+}
+
+.testimonialContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(370px - 110px);
+    gap: 1rem;
+}
+
+.testimonialDescription {
+    flex: 1;
+    font-weight: 300;
+    color: var(--text-grey);
+    font-size: .75rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin: 1rem 1rem 0 .5rem;
+}
+
+.navigationButtonsContainer {
+    padding: 0 .25rem;
+    width: 3rem;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navigationButtonsContainer p {
+    cursor: pointer;
+}
+
+.navigationButtonsContainer p > img {
+    width: 7px;
+    height: auto;
+}
+
+.progressBar {
+    /* position: absolute; */
+    /* bottom: 10px; */
+    display: flex;
+    align-items: center;
+}
+
+.filler {
+    flex-grow: 4;
+}
+
+.dot {
+    display: inline-block;
+    margin-right: .25rem;
+    height: 3px;
+    border-radius: 1px;
+}
+
+.dot {
+    width: 2px;
+    background-color: var(--text-grey);
+    transition: width 1s ease;
+}
+
+.dot.active {
+    background-color: var(--primary);
+    width: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .primaryText {
+        font-size: 6.6rem;
+        line-height: 8rem;
+        margin: 0;
+        color: var(--white);
+        font-weight: 600;
+    }
+
+    .secondaryText {
+        font-size: 2.25rem;
+        line-height: 1.2;
+        margin: 1.5rem 0 .25rem 0;
+        color: var(--text-grey);
+        font-weight: 500;
+    }
+
+    .funky {
+        background-color: var(--dull-bg-1);
+        padding: 0 1rem;
+    }
+
+    .CTAContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .joinWaitlist {
+        display: inline-block;
+        width: max-content;
+        text-align: center;
+        margin: 0;
+        margin-top: 1rem;
+        padding: 1rem 5rem;
+        font-size: 1.4rem;
+        border-radius: 10rem;
+        letter-spacing: .04em;
+        font-family: inherit;
+        font-weight: 600;
+    }
+
+    .testimonialsCard {
+        flex: 1;
+        background: rgba(255, 255, 255, 0.075);
+        backdrop-filter: blur( 10px );
+        -webkit-backdrop-filter: blur( 10px );
+        padding: 2.5rem 1.5rem 3rem 2rem;
+        border-radius: 12px;
+        margin-top: -300px;
+    }
+
+    .joinWaitlist, .knowMore {
+        margin-right: 1.25rem;
+    }
+}

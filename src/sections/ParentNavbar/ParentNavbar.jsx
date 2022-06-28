@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './Navbar.module.css';
+import styles from './ParentNavbar.module.css';
 
-const Navbar = ({showAbout}) => {
+const ParentNavbar = () => {
   const navigate = useNavigate()
 
   const navigateToHome = () => {
@@ -12,9 +12,12 @@ const Navbar = ({showAbout}) => {
   return (
     <nav className={styles.navbarContainer}>
         <h1 className={styles.logo} onClick={navigateToHome}>Crework<span className={styles.highlight}>.</span></h1>
-        <a href='https://crework.notion.site/crework/Beginner-Cohort-c903bdea287d4106829c5014c6868b8a' target="_blank" rel="noreferrer" className={`${styles.exploreButton} ${showAbout ? '' : styles.hide}`}>Know more</a>
+        <div className={styles.container}>
+            <a href='#programs' className={styles.programs}>Programs</a>
+            <a href='/about' className={styles.about}>About</a>
+        </div>
     </nav>
   );
 }
 
-export default Navbar;
+export default ParentNavbar;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import FAQ from '../sections/FAQ/FAQ';
 import Features from '../sections/Features/Features';
 import Hero from '../sections/Hero/Hero';
@@ -12,6 +12,9 @@ import Footer from '../sections/Footer/Footer';
 
 
 const BWU = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0})
+  }, [])
   return (
     <div>
       <Navbar/>

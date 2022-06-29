@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import BeginnerHero from '../sections/Beginner_Hero/Hero';
 import Navbar from '../sections/Navbar/Navbar'
 import Footer from '../sections/Footer/Footer';
@@ -10,6 +10,9 @@ import BeginnerMentors from '../sections/Beginner_Mentors/BeginnerMentors';
 import SubCTA from '../sections/Beginner_SubCTA/SubCTA';
 
 const Beginner = () => {
+  useEffect(() => {
+    window.scrollTo({top: 0})
+  }, [])
   return (
     <div>
       <Navbar showAbout={true}/>

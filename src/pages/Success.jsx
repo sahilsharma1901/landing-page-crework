@@ -13,21 +13,22 @@ const Success = () => {
     <>
       <Navbar showAbout={false}/>
       <div className={styles.aboutContainer}>
-          <h1 className={styles.heading}>Success!</h1>
+          <h1 className={styles.heading}>Thank you!!</h1>
           <p className={styles.content}>
-          At Crework, we believe that everyone deserves better. Started as a WhatsApp group, today we are known as a place to meet, learn and build with some of the smartest people in tech.
+            Thanks a lot for applying to the Crework Web Development Beginner Cohort. Congrats on taking your first step towards becoming a Web Developer!
           </p>
           <div className={styles.contentWrapper}>
-            <h3 className={styles.subHeading}>How it started?</h3>
-            <p className={styles.content}>The idea of Crework was pretty simple. Students want to build projects, but building a project alone has its own limitation. You need people to work with. You need better people, people you can learn with and people who want you to succeed. But, finding a peer group like this is hard.</p>
+            <h3 className={styles.subHeading}>When will it start?</h3>
+            <p className={styles.content}>The cohort will start from 16th July 2022 and we will start adding everyone to the Slack workspace gradually from 7th July 2022.</p>
             <br/>
-            <p className={styles.content}>So, we decided to make it easy. That’s how Crework batches were born. The first batch was just a few mentors helping 8 students trying to build Machine Learning projects. We tried it for the first time in 2021 and it worked. It worked, and we knew we have to keep doing this.</p>
+            <p className={styles.content}>Till that happens, we suggest you embrace yourself for this amazing ride of 6 months!!</p>
+
           </div>
           <div className={styles.contentWrapper}>
-            <h3 className={styles.subHeading}>What happens in Crework?</h3>
-            <p className={styles.content}>In Crework, you learn to build products. We have been building an ecosystem where it is easier to ask questions, get personalised guidance from industry mentors and build projects with other people in the community over a fixed period of time.</p>
+            <h3 className={styles.subHeading}>Still have questions?</h3>
+            <p className={styles.content}>Got any query, suggestion or anything to say? Feel free to reach out to us at <span><a className={styles.support} href="mailto:support@crework.in">support@crework.in</a></span></p>
             <br/>
-            <p className={styles.content}>After successful BWU batches, we intend to leverage the community and this ecosystem to replicate the process of learning by building projects in the beginner cohorts too.</p>
+            <p className={styles.content}>We look forward to having you in the cohort!</p>
           </div>
       </div>
       <Footer/>

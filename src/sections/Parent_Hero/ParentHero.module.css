@@ -52,6 +52,23 @@
     padding: 2rem;
     border-radius: 8px;
     cursor: pointer;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    background-color: var(--off-white-2);
+    padding: .6rem 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: var(--white);
+    font-weight: 600;
+    letter-spacing: .03em;
+    font-size: .8rem;
 }
 
 .program img {
@@ -107,6 +124,11 @@
     .program img {
         width: 25rem;
         height: 12.5rem;
+    }
+
+    .label {
+        font-size: 1.1rem;
+        padding: .5rem 0;
     }
 
     

@@ -1,0 +1,136 @@
+.heroContainer {
+    width: 90%;
+    margin: 1rem auto;
+    color: var(--white);
+}
+
+.section {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.primaryText {
+    font-size: 2.25rem;
+    letter-spacing: .02em;
+    margin-bottom: 1rem;
+}
+
+.secondaryText {
+    color: var(--text-light-grey-2);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: .75rem 2rem;
+    font-family: inherit;
+    font-size: 1.25rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--white);
+}
+
+.programsContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.pHeading {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.program {
+    border: 2px solid var(--dull-bg-1);
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    background-color: var(--off-white-2);
+    padding: .6rem 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: var(--white);
+    font-weight: 600;
+    letter-spacing: .03em;
+    font-size: .8rem;
+}
+
+.program img {
+    width: 17rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+@media only screen and (min-width: 768px) {
+    .heroContainer {
+        text-align: center;
+    }
+
+    .primaryText {
+        font-size: 4rem;
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .secondaryText {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .cta {
+        margin-top: 1.5rem;
+        padding: 1.25rem 5.5rem;
+        font-size: 1.5rem;
+        letter-spacing: .02em;
+        font-weight: 600;
+    }
+
+    .programsContainer {
+        margin-top: 7.5rem;
+    }
+
+    .pHeading {
+        font-size: 2.5rem;
+    }
+
+    .programs {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .program {
+        margin: 2rem;
+    }
+
+    .program img {
+        width: 25rem;
+        height: 12.5rem;
+    }
+
+    .label {
+        font-size: 1.1rem;
+        padding: .5rem 0;
+    }
+
+    
+}

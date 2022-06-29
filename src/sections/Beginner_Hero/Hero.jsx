@@ -9,7 +9,7 @@ const BeginnerHero = () => {
             <h1 className={styles.primaryText}>Become a <br/> Web <span className={styles.funky}>Developer</span> <br/> in <span className={styles.highlight}>6 months</span></h1>
             <p className={styles.secondaryText}>Learn with peers and get guided by industry experts</p>
             <div className={styles.CTAContainer}>
-                <a href="https://pages.razorpay.com/beginner-cohort-1" target="_blank" rel="noreferrer" className={styles.joinWaitlist}>Join Crework</a>
+                <a href="https://pages.razorpay.com/beginner-cohort-1" target="_blank" rel="noreferrer" className={styles.joinWaitlist}>Join Cohort</a>
             </div>
         </div>
     </div>

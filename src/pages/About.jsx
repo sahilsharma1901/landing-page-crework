@@ -14,7 +14,7 @@ const About = () => {
   
   return (
     <>
-      <Navbar/>
+      <Navbar showAbout={false}/>
       <div className={styles.aboutContainer}>
           <h1 className={styles.heading}>About us</h1>
           <p className={styles.content}>

@@ -27,7 +27,8 @@ const ParentHero = () => {
             <h2 className={styles.pHeading}>Our Programs</h2>
             <div className={styles.programs}>
                 <div className={styles.program} onClick={handleProgramSelection.bind(null, 'Beginner')}>
-                    <p className={styles.label}>Beginner - ENROLL NOW!</p>
+                    {/* <p className={styles.label}>Beginner - ENROLL NOW!</p> */}
+                    <p className={styles.label}>Beginner - Application Closed!</p>
                     <img src={Beginner} alt="Beginner's Cohort"/>
                 </div>
                 <div className={styles.program}  onClick={handleProgramSelection.bind(null, 'BWU')}>

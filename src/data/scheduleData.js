@@ -9,24 +9,30 @@ export const headingData = [
         head: "Week 3"
     },
     {
-        head: "Week 4 - 7"
+        head: "Week 4 - 6"
     },
     {
-        head: "Week 8"
+        head: "Week 7 - 9"
     },
     {
-        head: "27 August 2022"
+        head: "Week 10 - 11"
+    },
+    {
+        head: "Week 12"
+    },
+    {
+        head: "DEMO DAY!!"
     }
 ]
 
 export const contentData = [
     {
-        heading: "Ideation",
+        heading: "Product",
         preContent: "Learn how to",
         content: [
             "Brainstorm problems and come up with solutions",
-            "Convert your crazy solutions into real products",
-            "Collaborate with a team to validate the ideas"
+            "Collaborate with a team to validate the ideas",
+            "Convert your crazy solutions into real products"
         ]
     },
     {
@@ -35,33 +41,53 @@ export const contentData = [
         content: [
             "Design products that your users love",
             "Create user flows and wireframes for your project",
+            "Think about user experiences"
+        ]
+    },
+    {
+        heading: "Backend Design",
+        preContent: "Learn how to",
+        content: [
+            "Write efficient APIs for your project",
+            "Write better code as per best design pattern",
             "Choose the right database for your project",
             "Follow best practices for designing DB architecture"
         ]
     },
     {
-        heading: "Preparation",
-        preContent: "Learn how to",
+        heading: "Building v0",
+        preContent: "In these 3 weeks, you will",
         content: [
-            "Design a better User experience",
-            "Write efficient APIs for your project",
-            "Write better code as per best design pattern"
+            "Build the most basic version of your product",
+            "Learn more about Frontend Development best practices"
         ]
     },
     {
-        heading: "Build",
-        preContent: "In these 4 weeks, you will",
+        heading: "Building v1",
+        preContent: "In these 3 weeks, you will",
         content: [
-            "Just build the project with your team and keep making it better with the help of your mentors"
+            "Learn how to iterate on the product development process",
+            "Improve on the v0 by taking feedbacks",
+            "Host the application for making it available for users"
         ]
     },
     {
-        heading: "Presentation",
+        heading: "User Feedback",
         preContent: "Learn how to",
         content: [
-            "Share your work with everyone to get noticed",
-            "Build a personal brand through your work",
-            "Build the best resume to land your next internship or job"
+            "Talk to user and take user feedback",
+            "Conduct user interviews",
+            "Take product decisions on the basis of user feedback"
+        ]
+    },
+    {
+        heading: "Launching",
+        preContent: "Learn how to",
+        content: [
+            "Identify the right platform for launching your product",
+            "Market your product by targeting the right audience",
+            "Launch your product on Product Hunt",
+            "Launch your product on Twitter"
         ]
     },
     {
@@ -78,54 +104,46 @@ export const sessionData = [
         content: [
             {
                 title: "How to think of ideas?",
-                day: "Sunday",
-                date: "3 July",
-                by: "Ankit Mishra"
+                day: "",
+                date: "",
+                by: ""
             },
             {
-                title: "From idea to product!",
-                day: "Friday",
-                date: "8 July",
-                by: "Abhay Jani"
-            },
-            {
-                title: "Intro to System Design",
-                day: "Saturday",
-                date: "9 July",
-                by: "Arpit Bhayani"
+                title: "From idea to MVP!",
+                day: "",
+                date: "",
+                by: ""
             },
         ]
     },
     {
         content: [
             {
-                title: "UI/ UX Session Part 1",
-                day: "Tuesday",
-                date: "12 July",
-                by: "Ayushi Kulshreshtha"
+                title: "Product Design Session",
+                day: "",
+                date: "",
+                by: ""
             },
+        ]
+    },
+    {
+        content: [
             {
                 title: "LLD Session Part 1",
-                day: "Friday",
-                date: "15 July",
-                by: "Manthan Gupta"
-            },
-        ]
-    },
-    {
-        content: [
-            {
-                title: "UI/ UX Session Part 2",
-                day: "Tuesday",
-                date: "19 July",
-                by: "Ayushi Kulshreshtha"
+                day: "",
+                date: "",
+                by: ""
             },
             {
                 title: "LLD Session Part 2",
-                day: "Friday",
-                date: "22 July",
-                by: "Dushyant Pratap Singh"
+                day: "",
+                date: "",
+                by: ""
             },
+        ]
+    },
+    {
+        content: [
         ]
     },
     {
@@ -135,21 +153,21 @@ export const sessionData = [
     {
         content: [
             {
-                title: "Why you should post online?",
-                day: "Tuesday",
-                date: "23 August",
-                by: "Ishant Juyal"
-            },
-            {
-                title: "Resume Review Session",
-                day: "Thursday",
-                date: "25 August",
-                by: "All mentors"
+                title: "How to take user feedback?",
+                day: "",
+                date: "",
+                by: ""
             },
         ]
     },
     {
         content: [
+            {
+                title: "How to launch your product?",
+                day: "",
+                date: "",
+                by: ""
+            },
         ]
     },
 ]

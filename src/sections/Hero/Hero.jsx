@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useCallback} from 'react';
 import styles from './Hero.module.css';
 
 import prevArrow from '../../assets/icons/left-arrow.svg';
@@ -7,40 +7,51 @@ import nextArrow from '../../assets/icons/right-arrow.svg';
 import {testimonialData as data} from "../../data/testimonialData"
 
 const Hero = () => {
-
-    function randomIntFromInterval(min, max) { 
-        return Math.floor(Math.random() * (max - min + 1) + min)
-}
-      
     const [testimonials, _] = useState(data);
-    const randomNumber = randomIntFromInterval(0, 6)
-    console.log(randomNumber);
-
-    const [activeTestimonial, setActiveTestimonial] = useState(testimonials[randomNumber]);
+    const [activeIndex, setActiveIndex] = useState(0)
+    const [activeTestimonial, setActiveTestimonial] = useState(testimonials[activeIndex]);
     const [activeDP, setActiveDP] = useState(activeTestimonial.DP)
+
+    const handleIncrement = useCallback(() => {
+        if(activeIndex === testimonials.length - 1){
+            setActiveIndex(0)
+            setActiveTestimonial(testimonials[0])
+            setActiveDP(testimonials[0].DP)
+        } else {
+            setActiveIndex(activeIndex + 1)
+            setActiveTestimonial(testimonials[activeIndex + 1])
+            setActiveDP(testimonials[activeIndex + 1].DP)
+        }
+    }, [activeIndex, testimonials])
 
     useEffect(
         () => {
             const interval = setInterval(() => {
-                let activeTestimonialId = activeTestimonial.id
-                if(activeTestimonialId === testimonials.length){
-                    setActiveTestimonial(testimonials[0])
-                    setActiveDP(testimonials[0].DP)
-                } else {
-                    setActiveTestimonial(testimonials[activeTestimonialId])
-                    setActiveDP(testimonials[activeTestimonialId].DP)
-                }
+                handleIncrement()
             }, 8000)
 
             return () => {
                 clearInterval(interval)
             }
-        }, [activeTestimonial.id, testimonials]
+        }, [handleIncrement]
     )
+
+
+    const handleDecrement = () => {
+        if(activeIndex <= 0){
+            setActiveIndex(testimonials.length - 1)
+            setActiveTestimonial(testimonials[testimonials.length - 1])
+            setActiveDP(testimonials[testimonials.length - 1].DP)
+        } else {
+            setActiveIndex(activeIndex - 1)
+            setActiveTestimonial(testimonials[activeIndex - 1])
+            setActiveDP(testimonials[activeIndex - 1].DP)
+        }
+    }
 
   return (
     <div className={styles.heroContainer}>
-        <h1 className={styles.primaryText}>Build your best <br/> project in <span className={styles.highlight}> <br/> 8 weeks</span></h1>
+        <h1 className={styles.primaryText}>Build <span className={styles.specialText}>&nbsp;and Launch</span>  <br/>your best project<span className={styles.highlight}> <br/> in 12 weeks</span></h1>
         <p className={styles.secondaryText}>Ideate, build, network and get mentored <br/> with the best people in tech</p>
         <div className={styles.heroInnerContainer}>
             <div className={styles.CTAContainer}>
@@ -50,7 +61,6 @@ const Hero = () => {
             <div className={styles.testimonialsCard}>
                 <div className={styles.cardHeader}>
                     <div className={styles.DP}>
-                        {console.log(activeDP)}
                         <img src={activeDP} alt={activeTestimonial.name}/>
                     </div>
                     <h2 className={styles.testimonialHeader}>
@@ -60,15 +70,15 @@ const Hero = () => {
                 </div>
                 <div className={styles.testimonialContainer}>
                     <p className={styles.testimonialDescription}>{activeTestimonial.content}</p>
-                    <div className={styles.navigationButtonsContainer}>
-                        <p><img src={prevArrow} alt="previous"/></p>
-                        <p><img src={nextArrow} alt="next"/></p>
-                    </div>
-                    <div className="filler"></div>
                     <div className={styles.progressBar}>
                         {testimonials.map((_, index) => {
                             return <span className={`${styles.dot} ${index + 1 === activeTestimonial.id ? styles.active : ''} ${index + 1 === activeTestimonial.id - 1 ? styles.semiActive : ''}`} key={index}></span>
                         })}
+                    </div>
+                    <div className="filler"></div>
+                    <div className={styles.navigationButtonsContainer}>
+                        <p><img src={prevArrow} alt="previous" onClick={handleDecrement}/></p>
+                        <p><img src={nextArrow} alt="next" onClick={handleIncrement}/></p>
                     </div>
                 </div>
             </div>

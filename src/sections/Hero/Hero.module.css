@@ -118,7 +118,7 @@
 .testimonialContainer {
     display: flex;
     flex-direction: column;
-    min-height: calc(370px - 110px);
+    min-height: 260px;
     gap: 1rem;
 }
 
@@ -126,16 +126,17 @@
     flex: 1;
     font-weight: 300;
     color: var(--text-grey);
-    font-size: .75rem;
+    font-size: 1rem;
     margin-top: 1rem;
     margin-right: 1rem;
     margin: 1rem 1rem 0 .5rem;
 }
 
 .navigationButtonsContainer {
-    padding: 0 .25rem;
-    width: 3rem;
-    display: none;
+    padding: 0;
+    width: 2.5rem;
+    margin: 0 .5rem;
+    display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -150,10 +151,9 @@
 }
 
 .progressBar {
-    /* position: absolute; */
-    /* bottom: 10px; */
     display: flex;
     align-items: center;
+    margin: 1rem .5rem 0 .5rem;
 }
 
 .filler {
@@ -179,6 +179,27 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .specialText {
+        position: absolute;
+        opacity: 0;
+        animation: surprise .4s ease-in-out forwards;
+        animation-delay: 3s;
+        transform: translateY(3rem);
+    }
+
+    @keyframes surprise {
+        0% {
+            opacity: 0;
+        }
+        25% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .primaryText {
         font-size: 4.5rem;
         line-height: 5.25rem;
@@ -196,7 +217,7 @@
     }
 
     .testimonialDescription {
-        line-height: 1.25rem;
+        line-height: 1.5rem;
     }
 
     .heroInnerContainer {

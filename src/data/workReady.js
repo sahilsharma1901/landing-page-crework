@@ -10,18 +10,18 @@ export const WorkReadyData = [
         image: idea
     },
     {
-        heading: "Build as a team for 8 weeks",
-        description: "Don’t build solo, ship faster with people as curious as you",
+        heading: "Build as a team for 12 weeks",
+        description: "Don’t build solo, ship faster with people as curious and talented as you",
         image: team
     },
     {
         heading: "Get personalised mentorship",
-        description: "Get guidance not just about the project, but about your career too",
+        description: "Get guidance not just about the projects, but about your career too",
         image: mentorship
     },
     {
-        heading: "Make friends to cherish",
-        description: "Get the peer group you always wanted but never had",
+        heading: "Launch your first product",
+        description: "Launch your project, ship to real users and make their lives better",
         image: friends
     },
 ]

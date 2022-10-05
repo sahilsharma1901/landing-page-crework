@@ -8,26 +8,26 @@ import box from '../assets/icons/box.svg'
 export const featuresData = [
     {
         icon: openBook,
-        description: "Student developers who are looking to sharpen their skills",
+        description: "Developers & Engineers looking for their first job",
     },
     {
         icon: box,
-        description: "Student developers who struggle to build their portfolio",
+        description: "Developers & Engineers who struggle to build their portfolio",
     },
     {
         icon: user,
-        description: "Engineers who want to build products but don't know where to start from",
+        description: "Developers & Engineers in search of the right peer group",
     },
     {
         icon: university,
-        description: "Students looking for mentors to help in their 1 to 100 journey",
+        description: "Engineers who want to build products but aren’t sure where to start",
     },
     {
         icon: award,
-        description: "Builders who are looking for the right peer group to build things with",
+        description: "Students having a tech portfolio but are not confident about it",
     },
     {
         icon: halfStar,
-        description: "Students having a tech portfolio but are not confident about it",
+        description: "Students looking for mentors to help in their 1 to 100 journey",
     },
 ]

@@ -28,7 +28,7 @@ export const faqData = [
         question: "Is it something like a classroom course?",
         answer: [
             "No. This isn’t a classroom course where you’ll be taught subjects. You will be working with peers like you on a real life problem statement for 12 weeks. These 12 weeks will be a period where you actually apply all your theories into solving something practical under guidance and mentorship of the community.",
-            "You can checkout the Weekly schedule above to more in detail."
+            "You can checkout the Weekly schedule above for more detail."
         ],
         id: "4",
         opened: false

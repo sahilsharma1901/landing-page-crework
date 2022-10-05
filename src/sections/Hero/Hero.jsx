@@ -77,7 +77,7 @@ const Hero = () => {
                     </div>
                     <div className="filler"></div>
                     <div className={styles.navigationButtonsContainer}>
-                        <p><img src={prevArrow} alt="previous" onClick={handleDecrement}/></p>
+                        <p><img src={nextArrow} alt="previous" onClick={handleDecrement} className={styles.reversedImage}/></p>
                         <p><img src={nextArrow} alt="next" onClick={handleIncrement}/></p>
                     </div>
                 </div>

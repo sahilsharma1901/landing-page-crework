@@ -19,7 +19,7 @@ export const faqData = [
     {
         question: "What is the cost for the cohort?",
         answer: [
-            "If you get selected, you would need to pay INR 12K for this 12 weeks cohort. Keeping it paid makes sure everyone is accountable and giving their best."
+            "If you get selected, you would need to pay INR 12K for this 12 weeks cohort. Keeping it paid makes sure everyone is accountable and giving their best, hence making it an experience worth your time."
         ],
         id: "3",
         opened: false
@@ -27,7 +27,7 @@ export const faqData = [
     {
         question: "Is it something like a classroom course?",
         answer: [
-            "No. This isn’t a classroom course where you’ll be taught subjects. You will be working with peers like you on a real life problem statement for 12 weeks. These 12 weeks will be a period where you actually apply all your theories into solving something practical under guidance and mentorship of the community.",
+            "No. This isn’t a classroom course where you’ll be taught subjects. You will be working with your peers like you on a real life problem statement for 12 weeks. These 12 weeks will be a period where you actually apply all your theories into solving something practical under guidance and mentorship of the community.",
             "You can checkout the Weekly schedule above for more detail."
         ],
         id: "4",
@@ -72,11 +72,11 @@ export const faqData = [
     {
         question: "Who will be the mentors and how will I be helped?",
         answer: [
-            "You can check about the mentors above. Rest assured, we have worked hard to find the best people for you. Our mentors have been working in the industry for a while and have the experience of building some of the best products out there.",
+            "You can know more about the mentors above. Rest assured, we have worked hard to find the best people for you. The mentors have been working in the industry for a while and have the experience of building some of the best products out there.",
             "Your mentors will help you in many ways",
             "1. Solve your doubts",
-            "3. Mentor/ guide your team to build better projects effectively",
-            "3. Teach you concepts relevant in the industry and relevant to your project",
+            "3. Guide your team to build better projects effectively",
+            "3. Teach you concepts relevant in the industry and to your project",
         ],
         id: "8",
         opened: false
@@ -84,7 +84,7 @@ export const faqData = [
     {
         question: "Is it mandatory to work in a team?",
         answer: [
-            "Yes, it is mandatory to be part of a team for the cohort. The team and project selection is a process that happens in the first week.",
+            "Yes, it is mandatory to be part of a team for the cohort. The team and project selection happens in the first week.",
         ],
         id: "9",
         opened: false
@@ -100,7 +100,7 @@ export const faqData = [
     {
         question: "What is the refund policy?",
         answer: [
-            "There would be no refund for the cohort.",
+            "There would be no refund issued for this cohort.",
         ],
         id: "11",
         opened: false

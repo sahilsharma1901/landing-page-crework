@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import styles from "./Hero.module.css";
 
 import prevArrow from "../../assets/icons/left-arrow.svg";
@@ -51,7 +51,8 @@ const Hero = () => {
   return (
     <div className={styles.heroContainer}>
       <h1 className={styles.primaryText}>
-        Build <span className="">and Launch</span> <br />
+        Build <span className={styles.specialText}>&nbsp;and Launch</span>{" "}
+        <br />
         your best project
         <span className={styles.highlight}>
           {" "}

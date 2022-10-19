@@ -3,11 +3,18 @@ import styles from './Companies.module.css'
 import {data} from './data';
 
 const Companies = () => {
-    console.log(data);
   return (
     <div>
         <div className={styles.grid} >
-sasdasd
+            {
+                data.map((ele, key) => {
+                    return(
+                        <div key={key} >
+                            {/* bg image as ele.image */}
+                        </div>
+                    )
+                })
+            }
         </div>
     </div>
   )

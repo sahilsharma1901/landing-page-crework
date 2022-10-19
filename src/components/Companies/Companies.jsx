@@ -9,7 +9,7 @@ const Companies = () => {
             {
                 data.map((ele, key) => {
                     return(
-                        <div key={key} >
+                        <div className={styles.box}  key={key} >
                             {/* bg image as ele.image */}
                         </div>
                     )

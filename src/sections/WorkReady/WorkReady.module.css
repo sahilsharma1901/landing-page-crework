@@ -33,7 +33,7 @@
 .imageContainer {
     width: 3.5rem;
     height: auto;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
 .image {
@@ -47,12 +47,14 @@
     color: var(--secondary);
     font-size: 1rem;
     margin: .5rem 0 1rem 0;
+    text-align: center;
 }
 
 .itemDescription {
     color: var(--text-light-grey-2);
     font-weight: 300;
     font-size: .85rem;
+    text-align: center;
 }
 
 
@@ -91,7 +93,7 @@
     .imageContainer {
         width: 6rem;
         height: auto;
-        margin: 1rem;
+        margin: 1rem auto;
     }
     
     .itemHeading {
@@ -105,5 +107,6 @@
         color: var(--text-light-grey-2);
         font-weight: 300;
         font-size: .85rem;
+        text-align: center;
     }
 }

@@ -1,7 +1,7 @@
 import idea from '../assets/icons/idea.png';
 import mentorship from '../assets/icons/help.png';
 import team from '../assets/icons/teamwork.png';
-import friends from '../assets/icons/friends.png';
+import shuttle from '../assets/icons/shuttle.png';
 
 export const WorkReadyData = [
     {
@@ -10,7 +10,7 @@ export const WorkReadyData = [
         image: idea
     },
     {
-        heading: "Build as a team for 12 weeks",
+        heading: "Build as part of a team",
         description: "Don’t build solo, ship faster with people as curious and talented as you",
         image: team
     },
@@ -22,6 +22,6 @@ export const WorkReadyData = [
     {
         heading: "Launch your first product",
         description: "Launch your project, ship to real users and make their lives better",
-        image: friends
+        image: shuttle
     },
 ]

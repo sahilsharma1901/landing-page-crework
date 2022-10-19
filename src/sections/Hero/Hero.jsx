@@ -5,8 +5,6 @@ import prevArrow from "../../assets/icons/left-arrow.svg";
 import nextArrow from "../../assets/icons/right-arrow.svg";
 
 import { testimonialData as data } from "../../data/testimonialData";
-import Companies from "../../components/Companies/Companies";
-// LINE 131
 
 const Hero = () => {
   const [testimonials, _] = useState(data);
@@ -73,7 +71,7 @@ const Hero = () => {
               target="_blank"
               rel="noreferrer"
               className={styles.joinWaitlist}>
-              Join Waitlist
+              Apply now
             </a>
             <a href="#knowMore" className={styles.knowMore}>
               Know more
@@ -89,7 +87,7 @@ const Hero = () => {
           <h2 className={styles.testimonialHeader}>
             <span className={styles.p_text}>{activeTestimonial.name}</span>
             <span className={styles.s_text}>
-              {activeTestimonial.batch} batch
+              {activeTestimonial.batch} Batch {activeTestimonial.batchNumber}
             </span>
           </h2>
         </div>
@@ -128,7 +126,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-        {/* <Companies/> */}
     </div>
   );
 };

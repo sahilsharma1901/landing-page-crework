@@ -106,23 +106,23 @@ export const sessionData = [
                 title: "How to think of ideas?",
                 day: "",
                 date: "",
-                by: ""
+                by: "Ishant Juyal"
             },
             {
                 title: "From idea to MVP!",
                 day: "",
                 date: "",
-                by: ""
+                by: "Apoorv Taneja"
             },
         ]
     },
     {
         content: [
             {
-                title: "Product Design Session",
+                title: "Product Design 101",
                 day: "",
                 date: "",
-                by: ""
+                by: "Ayushi Kulshreshtha"
             },
         ]
     },
@@ -132,13 +132,29 @@ export const sessionData = [
                 title: "LLD Session Part 1",
                 day: "",
                 date: "",
-                by: ""
+                by: "Manthan Gupta"
             },
             {
                 title: "LLD Session Part 2",
                 day: "",
                 date: "",
-                by: ""
+                by: "Dushyant Pratap Singh"
+            },
+        ]
+    },
+    {
+        content: [
+            {
+                title: "Frontend Best Practices",
+                day: "",
+                date: "",
+                by: "Rizwan Memon"
+            },
+            {
+                title: "Latest Frontend Technologies",
+                day: "",
+                date: "",
+                by: "Vikrant Bhat"
             },
         ]
     },
@@ -148,15 +164,11 @@ export const sessionData = [
     },
     {
         content: [
-        ]
-    },
-    {
-        content: [
             {
-                title: "How to take user feedback?",
+                title: "How to talk to users?",
                 day: "",
                 date: "",
-                by: ""
+                by: "Ishant Juyal"
             },
         ]
     },
@@ -166,7 +178,7 @@ export const sessionData = [
                 title: "How to launch your product?",
                 day: "",
                 date: "",
-                by: ""
+                by: "Akash Bhadange"
             },
         ]
     },

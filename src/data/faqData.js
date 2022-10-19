@@ -27,7 +27,7 @@ export const faqData = [
     {
         question: "Is it something like a classroom course?",
         answer: [
-            "No. This isn’t a classroom course where you’ll be taught subjects. You will be working with your peers like you on a real life problem statement for 12 weeks. These 12 weeks will be a period where you actually apply all your theories into solving something practical under guidance and mentorship of the community.",
+            "No. This isn’t a classroom course where you’ll be taught subjects. You will be working with your peers on a real life problem statement for 12 weeks. These 12 weeks will be a period where you actually apply all your theories into solving something practical under guidance and mentorship of the community.",
             "You can checkout the Weekly schedule above for more detail."
         ],
         id: "4",
@@ -82,11 +82,20 @@ export const faqData = [
         opened: false
     },
     {
+        question: "Would there be a guarantee of a job after graduating from the cohort?",
+        answer: [
+            "No. The cohort is focused on making you a better developer and a builder.",
+            "We don’t guarantee a job, but the community and mentors would always be there to help and guide you in any way you need, even after the cohort ends.",
+        ],
+        id: "9",
+        opened: false
+    },
+    {
         question: "Is it mandatory to work in a team?",
         answer: [
             "Yes, it is mandatory to be part of a team for the cohort. The team and project selection happens in the first week.",
         ],
-        id: "9",
+        id: "10",
         opened: false
     },
     {
@@ -94,7 +103,7 @@ export const faqData = [
         answer: [
             "Once the whole process is complete, selected folks would get an acceptance mail. You will need to pay after that only.",
         ],
-        id: "10",
+        id: "11",
         opened: false
     },
     {
@@ -102,7 +111,7 @@ export const faqData = [
         answer: [
             "There would be no refund issued for this cohort.",
         ],
-        id: "11",
+        id: "12",
         opened: false
     },
     {
@@ -110,7 +119,7 @@ export const faqData = [
         answer: [
             "If you have any more queries, please reach out to support@crework.in",
         ],
-        id: "12",
+        id: "13",
         opened: false
     },
 ]

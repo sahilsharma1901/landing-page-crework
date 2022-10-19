@@ -9,6 +9,7 @@ import Stats from '../sections/Stats/Stats';
 import WorkReady from '../sections/WorkReady/WorkReady';
 import Navbar from '../sections/Navbar/Navbar'
 import Footer from '../sections/Footer/Footer';
+import Companies from '../sections/Companies/Companies';
 
 
 const BWU = () => {
@@ -24,6 +25,7 @@ const BWU = () => {
       <Schedule/>
       <Features/>
       <Mentors/>
+      <Companies/>
       <CTA/>
       <FAQ/>
       <Footer/>

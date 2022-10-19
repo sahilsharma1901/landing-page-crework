@@ -7,10 +7,10 @@ const Companies = () => {
     <div>
         <div className={styles.grid} >
             {
-                data.map((ele, key) => {
+                data.map((info, key) => {
                     return(
-                        <div key={key} >
-                            {/* bg image as ele.image */}
+                        <div key={key} className={styles.imageContainer}>
+                            <img src={info.image} alt={"F"}/>
                         </div>
                     )
                 })

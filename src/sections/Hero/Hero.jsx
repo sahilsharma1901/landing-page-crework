@@ -5,6 +5,8 @@ import prevArrow from "../../assets/icons/left-arrow.svg";
 import nextArrow from "../../assets/icons/right-arrow.svg";
 
 import { testimonialData as data } from "../../data/testimonialData";
+import Companies from "../../components/Companies/Companies";
+// LINE 131
 
 const Hero = () => {
   const [testimonials, _] = useState(data);
@@ -126,6 +128,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+        {/* <Companies/> */}
     </div>
   );
 };

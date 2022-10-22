@@ -1,20 +1,13 @@
 import React from 'react'
 import styles from './Companies.module.css'
-import {data} from './data';
+import companies from '../../assets/images/companies.png';
 
 const Companies = () => {
   return (
     <div>
-        <div className={styles.grid} >
-            {
-                data.map((info, key) => {
-                    return(
-                        <div key={key} className={styles.imageContainer}>
-                            <img src={info.image} alt={"F"}/>
-                        </div>
-                    )
-                })
-            }
+        <h2 className={styles.heading}>Our graduates work at</h2>
+        <div className={styles.imagesContainer} >
+            <img src={companies} alt="Companies"/>
         </div>
     </div>
   )

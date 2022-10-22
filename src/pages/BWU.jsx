@@ -24,8 +24,8 @@ const BWU = () => {
       <WorkReady/>
       <Schedule/>
       <Features/>
-      <Mentors/>
       <Companies/>
+      <Mentors/>
       <CTA/>
       <FAQ/>
       <Footer/>

@@ -1,7 +1,42 @@
-.grid{
-    display: grid;
-    width: 60%;
+.companiesContainer {
+    width: 100%;
     margin: 2rem auto;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
+}
+
+.heading {
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+
+.imagesContainer{
+    width: 100%;
+}
+
+.imagesContainer img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 2rem;
+        letter-spacing: .02em;
+        display: block;
+        text-align: center;
+        position: static;
+    }
+
+    .companiesContainer {
+        margin-top: 5rem;
+    }
+
+    .imagesContainer {
+        margin-top: 4rem;
+    }
 }

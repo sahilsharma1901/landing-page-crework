@@ -10,9 +10,9 @@
     font-weight: 500;
 }
 
-
 .imagesContainer{
     width: 100%;
+    margin: 2rem 0;
 }
 
 .imagesContainer img{
@@ -27,9 +27,7 @@
     .heading {
         font-size: 2rem;
         letter-spacing: .02em;
-        display: block;
         text-align: center;
-        position: static;
     }
 
     .companiesContainer {

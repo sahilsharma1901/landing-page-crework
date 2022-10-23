@@ -32,7 +32,7 @@ const ParentHero = () => {
                     <img src={Beginner} alt="Beginner's Cohort"/>
                 </div>
                 <div className={styles.program}  onClick={handleProgramSelection.bind(null, 'BWU')}>
-                    <p className={styles.label}>BWU - Waitlist open</p>
+                    <p className={styles.label}>BWU - Applications Open</p>
                     <img src={BWU} alt="BWU Batch"/>
                 </div>
             </div>

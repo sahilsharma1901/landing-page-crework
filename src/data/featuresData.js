@@ -9,26 +9,26 @@ import confidence from '../assets/icons/confidence.png'
 export const featuresData = [
     {
         icon: job,
-        description: "Developers & Engineers looking for their first job",
+        description: "Students looking for their first job",
     },
     {
         icon: resume,
-        description: "Developers & Engineers who struggle to build their portfolio",
+        description: "Programmers who struggle to build their portfolio",
     },
     {
         icon: peer,
-        description: "Developers & Engineers in search of the right peer group",
+        description: "People in search of the right peer group",
     },
     {
         icon: start,
-        description: "Engineers who want to build products but aren’t sure where to start",
+        description: "Builders who want to build products",
     },
     {
         icon: confidence,
-        description: "Students having a tech portfolio but are not confident about it",
+        description: "Programmers who want to gain confidence by building projects",
     },
     {
         icon: guidance,
-        description: "Students looking for mentors to help in their 1 to 100 journey",
+        description: "Students looking for mentors for their 1 to 100 journey",
     },
 ]

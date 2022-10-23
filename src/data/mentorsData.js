@@ -10,36 +10,6 @@ import Akash from '../assets/images/akash_final.jpeg'
 
 export const mentorsData = [
     {
-        image: Akash,
-        name: "Akash Bhadange",
-        designation: "Co-founder",
-        where: "Peerlist",
-        socials: [
-            "https://twitter.com/designerdada",
-            "https://www.linkedin.com/in/designerdada"
-        ]
-    },
-    {
-        image: Apoorv,
-        name: "Apoorv Taneja",
-        designation: "Frontend Engineer",
-        where: "Razorpay",
-        socials: [
-            "https://twitter.com/apoorv_taneja",
-            "https://www.linkedin.com/in/apoorvtaneja"
-        ]
-    },
-    {
-        image: Vikrant,
-        name: "Vikrant Bhat",
-        designation: "Frontend Engineer",
-        where: "Razorpay",
-        socials: [
-            "https://twitter.com/vikrantbhat1022",
-            "https://www.linkedin.com/in/bhatvikrant"
-        ]
-    },
-    {
         image: Ishant,
         name: "Ishant Juyal",
         designation: "Co-founder",
@@ -47,16 +17,6 @@ export const mentorsData = [
         socials: [
             "https://twitter.com/juyal_ishant",
             "https://www.linkedin.com/in/ishantjuyal/"
-        ]
-    },
-    {
-        image: Ayushi,
-        name: "Ayushi Kulshreshtha",
-        designation: "Product Designer",
-        where: "West Agile Labs",
-        socials: [
-            "https://twitter.com/ayushikul_02",
-            "https://www.linkedin.com/in/ayushikulshreshtha/"
         ]
     },
     {
@@ -80,6 +40,26 @@ export const mentorsData = [
         ]
     },
     {
+        image: Dushyant,
+        name: "Dushyant Pratap Singh",
+        designation: "Senior Software Engineer",
+        where: "Grappus",
+        socials: [
+            "https://twitter.com/dusht1408",
+            "https://www.linkedin.com/in/dushyant865/"
+        ]
+    },
+    {
+        image: Vikrant,
+        name: "Vikrant Bhat",
+        designation: "Frontend Engineer",
+        where: "Razorpay",
+        socials: [
+            "https://twitter.com/vikrantbhat1022",
+            "https://www.linkedin.com/in/bhatvikrant"
+        ]
+    },
+    {
         image: Rizwan,
         name: "Rizwan Memon",
         designation: "Software Engineer",
@@ -90,13 +70,33 @@ export const mentorsData = [
         ]
     },
     {
-        image: Dushyant,
-        name: "Dushyant Pratap Singh",
-        designation: "Senior Software Engineer",
-        where: "Grappus",
+        image: Ayushi,
+        name: "Ayushi Kulshreshtha",
+        designation: "Product Designer",
+        where: "West Agile Labs",
         socials: [
-            "https://twitter.com/dusht1408",
-            "https://www.linkedin.com/in/dushyant865/"
+            "https://twitter.com/ayushikul_02",
+            "https://www.linkedin.com/in/ayushikulshreshtha/"
+        ]
+    },
+    {
+        image: Apoorv,
+        name: "Apoorv Taneja",
+        designation: "Frontend Engineer",
+        where: "Razorpay",
+        socials: [
+            "https://twitter.com/apoorv_taneja",
+            "https://www.linkedin.com/in/apoorvtaneja"
+        ]
+    },
+    {
+        image: Akash,
+        name: "Akash Bhadange",
+        designation: "Co-founder",
+        where: "Peerlist",
+        socials: [
+            "https://twitter.com/designerdada",
+            "https://www.linkedin.com/in/designerdada"
         ]
     },
 ]

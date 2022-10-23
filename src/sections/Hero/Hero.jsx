@@ -29,7 +29,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleIncrement();
-    }, 8000);
+    }, 10000);
 
     return () => {
       clearInterval(interval);
@@ -67,7 +67,7 @@ const Hero = () => {
         <div className={styles.heroInnerContainer}>
           <div className={styles.CTAContainer}>
             <a
-              href="https://tally.so/r/3jaQoE"
+              href="https://tally.so/r/3jadlx"
               target="_blank"
               rel="noreferrer"
               className={styles.joinWaitlist}>
@@ -112,16 +112,15 @@ const Hero = () => {
           </div>
           <div className="filler"></div>
           <div className={styles.navigationButtonsContainer}>
-            <p>
+            <p onClick={handleDecrement}>
               <img
                 src={nextArrow}
                 alt="previous"
-                onClick={handleDecrement}
                 className={styles.reversedImage}
               />
             </p>
-            <p>
-              <img src={nextArrow} alt="next" onClick={handleIncrement} />
+            <p onClick={handleIncrement}>
+              <img src={nextArrow} alt="next" />
             </p>
           </div>
         </div>

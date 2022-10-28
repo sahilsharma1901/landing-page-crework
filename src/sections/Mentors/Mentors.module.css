@@ -28,8 +28,8 @@
 }
 
 .image {
-    width: 13rem;
-    height: 13rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     object-fit: cover;
     object-position: top

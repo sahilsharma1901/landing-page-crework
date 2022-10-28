@@ -1,8 +1,7 @@
 .CTAContainer {
   width: 100%;
   padding: 2rem;
-  padding-top: 2rem;
-  background-color: var(--black);
+  padding-top: 0;
 }
 
 .innerCTA {
@@ -17,9 +16,9 @@
 }
 
 .subHeading {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--primary);
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -28,8 +27,8 @@
 }
 
 .tick {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
 .listContainer {
@@ -39,9 +38,9 @@
 }
 
 .listItem {
-  font-size: 1rem;
   color: var(--white);
   font-weight: 500;
+  line-height: 1.3rem;
 }
 
 .cardContainer {
@@ -55,7 +54,7 @@
 .card {
   background-color: #473e3a;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 .applicationOpenContainer {
@@ -66,7 +65,6 @@
 }
 
 .paragraph {
-  font-size: 1rem;
   color: var(--white);
   font-weight: 500;
   margin-block: 0.5rem;
@@ -82,10 +80,10 @@
 
 .cta {
   display: inline-block;
-  padding: 0.5rem 1.5rem;
+  padding: 0.6rem 1.5rem;
   font-family: inherit;
   border-radius: 10px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   background-color: var(--primary);
 }
@@ -107,7 +105,8 @@
   }
 
   .listItem {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     letter-spacing: 0.02em;
     display: block;
     position: static;
@@ -115,14 +114,6 @@
 
   .listContainer {
     margin-block: 0.5rem;
-  }
-
-  .CTAContainer {
-    padding-top: 5rem;
-  }
-
-  .innerCTA {
-    padding-top: 4rem;
   }
 
   .cardContainer {
@@ -134,12 +125,13 @@
   }
 
   .tick {
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
   .paragraph {
     font-size: 1.25rem;
+    line-height: 1.75rem;
     letter-spacing: 0.02em;
     margin-block: 1rem;
   }
@@ -152,5 +144,11 @@
     font-size: 1.5rem;
     letter-spacing: 0.02em;
     padding: 0.75rem 2rem;
+  }
+
+  .card {
+    background-color: #473e3a;
+    border-radius: 10px;
+    padding: 2rem;
   }
 }

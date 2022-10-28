@@ -37,10 +37,11 @@ const Schedule = () => {
                   <div className={styles.session} key={index4}>
                     {session.content.map((content, index5) => {
                       return (
-                        <div className={styles.sessionInner}>
-                          <div className={styles.headWrapper} key={index5}>
+                        <div className={styles.sessionInner} key={index5}>
+                          <div className={styles.headWrapper}>
                             <p className={styles.s_head}>{content.title}</p>
-                            <p className={styles.s_side}><span>{content.date}</span>, <span>{content.day}</span></p>
+                            {/* Comma tha yhape [Later] */}
+                            <p className={styles.s_side}><span>{content.date}</span> <span>{content.day}</span></p>
                           </div>
                           <p className={styles.s_by}>by <strong>{content.by}</strong></p>
                         </div>

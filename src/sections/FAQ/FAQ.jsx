@@ -35,12 +35,12 @@ const FAQ = () => {
                         <div key={index} className={styles.FAQ} onClick={faqHandler.bind(null, item.id)}>
                             <div className={styles.FAQHead}>
                                 <img src={item.opened ? minus : plus} alt="icon" className={styles.faqIcon} />
-                                <p className={styles.text}>{item.question}</p>
+                                <p className={`${styles.text} ${styles.bold}`}>{item.question}</p>
                             </div>
                             <div className={`${styles.FAQBody} ${item.opened ? styles.opened : ''}`}>
-                                <p className={styles.text}>{item.answer.map((sentence, idx) => {
+                                <div className={styles.text}>{item.answer.map((sentence, idx) => {
                                     return <p className={styles.text} key={idx}>{sentence}</p>
-                                })}</p>
+                                })}</div>
                             </div>
                         </div>
                     )

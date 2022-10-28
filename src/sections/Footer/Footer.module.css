@@ -8,12 +8,13 @@
     width: 90%;
     margin: 0 auto;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-between;
     padding: 2rem 0 1rem 0;
 }
 
 .linksContainer {
+    display: none;
     border-bottom: 1px solid var(--image-bg);
     width: 90%;
     margin: 1rem auto 0 auto;

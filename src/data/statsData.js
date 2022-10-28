@@ -1,6 +1,6 @@
 export const statsData = [
     {
-        heading: "4",
+        heading: "5",
         description: "Batches",
     },
     {
@@ -8,11 +8,11 @@ export const statsData = [
         description: "Applications",
     },
     {
-        heading: "35+",
+        heading: "40+",
         description: "Graduates",
     },
     {
-        heading: "9",
+        heading: "11",
         description: "Projects",
     },
 ]

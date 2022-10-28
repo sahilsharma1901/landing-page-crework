@@ -1,0 +1,4 @@
+Changes to be done:
+1. Remove animation from "and Launch" in header.  -done
+2. "Join Waitlist" and "Know More" button is moving with the height of testimonial block. Increase the height of the block to make it constant. -done
+3. Testimonial Block should be moved up to align well with the text. -done

@@ -1,47 +1,156 @@
 .CTAContainer {
-    width: 100%;
-    padding: 4rem 0;
-    background: linear-gradient(97.36deg, var(--fire-gradient-start) 15.77%, var(--fire-gradient-end) 156.09%);
-    background: -moz-linear-gradient(0deg, var(--fire-gradient-start) 20%, var(--fire-gradient-end) 100%);
-    background: -webkit-linear-gradient(0deg, var(--fire-gradient-start) 20%, var(--fire-gradient-end) 100%);
+  width: 100%;
+  padding: 2rem;
+  padding-top: 2rem;
+  background-color: var(--black);
 }
 
 .innerCTA {
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+  width: 90%;
+  margin: 3rem auto;
 }
 
-
-.text {
-    font-size: 2.5rem;
-    color: var(--white);
-    font-weight: 600;
-    line-height: 3rem;
+.heading {
+  font-size: 1.25rem;
+  color: var(--primary);
+  font-weight: 500;
 }
 
-.exploreButton {
-    padding: .6rem 3rem;
-    color: var(--black);
-    background-color: var(--white);
-    border-radius: 8px;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-right: 5rem;
+.subHeading {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.listParentContainer {
+  padding-left: 0.5rem;
+}
+
+.tick {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.listContainer {
+  display: inline-flex;
+  gap: 0.5em;
+  margin-block: 0.25rem;
+}
+
+.listItem {
+  font-size: 1rem;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.cardContainer {
+  display: grid;
+  gap: 2rem;
+  row-gap: 3.5rem;
+  grid-template-columns: 1;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #473e3a;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.applicationOpenContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: var(--white);
+  font-weight: 500;
+  margin-block: 0.5rem;
+}
+
+.pricing {
+  font-size: 1.25rem;
+  display: block;
+  color: var(--white);
+  font-weight: 500;
+  margin-block: 0.25rem;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  font-family: inherit;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background-color: var(--primary);
+}
+
+@media only screen and (min-width: 768px) {
+  .heading {
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    display: block;
+    position: static;
+  }
+
+  .subHeading {
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    display: block;
+    position: static;
+    margin-bottom: 1.5rem;
+  }
+
+  .listItem {
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    display: block;
+    position: static;
+  }
+
+  .listContainer {
+    margin-block: 0.5rem;
+  }
+
+  .CTAContainer {
+    padding-top: 5rem;
+  }
+
+  .innerCTA {
+    padding-top: 4rem;
+  }
+
+  .cardContainer {
     margin-top: 2rem;
-    display: inline-block;
-}
+    display: grid;
+    gap: 2rem;
+    row-gap: 3.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
 
-@media only screen and (min-width: 700px) {
-    .innerCTA {
-        display: flex;
-    }
+  .tick {
+    width: 2rem;
+    height: 2rem;
+  }
 
-    .exploreButton {
-        margin-top: 0;
-        padding: 1rem 5rem;
-        border-radius: 12px;
-        font-size: 1.5rem;
-    }
+  .paragraph {
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    margin-block: 1rem;
+  }
+
+  .pricing {
+    font-size: 2rem;
+  }
+
+  .cta {
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+    padding: 0.75rem 2rem;
+  }
 }

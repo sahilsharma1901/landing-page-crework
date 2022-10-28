@@ -1,7 +1,7 @@
 .mentorsContainer {
     width: 100%;
     margin-top: 2rem;
-    padding: 2rem 0;
+    padding: 4rem 0;
     background-color: var(--black);
 }
 
@@ -28,8 +28,8 @@
 }
 
 .image {
-    width: 14rem;
-    height: 14rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
     object-fit: cover;
     object-position: top

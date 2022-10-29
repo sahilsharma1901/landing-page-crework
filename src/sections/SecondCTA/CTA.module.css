@@ -72,10 +72,18 @@
 
 .pricing {
   font-size: 1.25rem;
+  line-height: 2rem;
   display: block;
   color: var(--white);
   font-weight: 500;
   margin-block: 0.25rem;
+}
+
+.pricing::after {
+  content: '(3 Months No-cost EMI options available)';
+  display: block;
+  font-size: .8rem;
+  font-weight: 300;
 }
 
 .cta {

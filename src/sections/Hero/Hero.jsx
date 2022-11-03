@@ -67,7 +67,7 @@ const Hero = () => {
         <div className={styles.heroInnerContainer}>
           <div className={styles.CTAContainer}>
             <a
-              href="https://tally.so/r/3jadlx"
+              href="https://bit.ly/bwu3-cta1"
               target="_blank"
               rel="noreferrer"
               className={styles.joinWaitlist}>

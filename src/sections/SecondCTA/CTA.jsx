@@ -50,7 +50,7 @@ const CTA = () => {
             </div>
             <p>
               <span className={styles.pricing}>Rs. 12,000</span>
-              <a href="https://tally.so/r/3jadlx" target="_blank" rel="noreferrer" className={styles.cta}>
+              <a href="https://bit.ly/bwu3-cta2" target="_blank" rel="noreferrer" className={styles.cta}>
                 Apply Now
               </a>
             </p>

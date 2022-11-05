@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./CTA.module.css";
 import tick from "../../assets/icons/charm_square-tick.svg";
+import info from "../../assets/icons/info.png";
 
 const CTA = () => {
   return (
@@ -48,12 +49,27 @@ const CTA = () => {
                 :&#41;
               </p>
             </div>
-            <p>
-              <span className={styles.pricing}>Rs. 12,000</span>
-              <a href="https://bit.ly/bwu3-cta2" target="_blank" rel="noreferrer" className={styles.cta}>
-                Apply Now
-              </a>
-            </p>
+            <div className={styles.pricingReminderContainer}>
+              <p className={styles.pricing}>Rs. 12,000</p>
+              <div className={styles.scholarshipContainer}>
+                <a href="https://bit.ly/bwu3-cta2" target="_blank" rel="noreferrer" className={styles.cta}>
+                  Apply Now
+                </a>
+                <div className={styles.scholarship}>
+                  <span>Scholarships available</span> 
+                  <img src={info} alt="Info"/> 
+                  <div className={styles.infoCard}>
+                    <p className={styles.line}>Upto 50% scholarship available.</p>
+                    <p className={styles.line}>A limited number of applicants would be selected for scholarship.</p>
+                    <p className={styles.line}>Depending on your application and your performance in 1:1 discussion, you will get one of these four tiers:</p>
+                    <p>Tier A - 50% Scholarship,</p>
+                    <p>Tier B - 40% Scholarship,</p>
+                    <p>Tier C - 30% Scholarship,</p>
+                    <p>Tier D - 20% Scholarship</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
